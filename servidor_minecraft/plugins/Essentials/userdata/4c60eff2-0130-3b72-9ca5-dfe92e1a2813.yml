@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.145.201.232
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1731864734913
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1732424987647
+  login: 1732424885173
+  kits:
+    tools: 1731795525287
+    kitinicial: 1731864740111
+money: '0'
+last-account-name: Redalyc1
+logoutlocation:
+  world: 305ad7c6-69f4-46da-b05c-6d59d30d1042
+  world-name: world
+  x: -619.3295983895251
+  y: 82.74317126936853
+  z: 349.87029497821004
+  yaw: -128.6865234375
+  pitch: 3.6263434886932373
+lastlocation:
+  world: 305ad7c6-69f4-46da-b05c-6d59d30d1042
+  world-name: world
+  x: -385.364554205239
+  y: 78.0
+  z: 77.15277178379665
+  yaw: 91.1392822265625
+  pitch: 3.748502731323242

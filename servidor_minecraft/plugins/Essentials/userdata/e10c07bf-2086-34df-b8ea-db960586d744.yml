@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.18.81.153
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1731558635906
+  login: 1731555242412
+money: '0'
+last-account-name: MizaxDemon
+lastlocation:
+  world: 16921b8a-0370-448d-92dd-aaacc587eac6
+  world-name: world
+  x: -574.5238592796412
+  y: -54.0
+  z: 160.7144443301056
+  yaw: -132.7607421875
+  pitch: 60.29139709472656
+logoutlocation:
+  world: 16921b8a-0370-448d-92dd-aaacc587eac6
+  world-name: world
+  x: -366.78316123526076
+  y: 77.0
+  z: 200.32346921537444
+  yaw: -107.32666015625
+  pitch: 31.312089920043945

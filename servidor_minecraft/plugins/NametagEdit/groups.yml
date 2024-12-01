@@ -1,0 +1,11 @@
+Groups:
+  Admin:
+    Permission: nte.admin
+    Prefix: '(Admin) '
+    Suffix: '&f'
+    SortPriority: 1
+  Mienbro:
+    Permission: nt.mienbro
+    Prefix: '&9'
+    Suffix: ''
+    SortPriority: -1

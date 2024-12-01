@@ -1,0 +1,1466 @@
+[05:06:53] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.11, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[05:06:53] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[05:06:55] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[05:06:55] [main/INFO] [com.teampotato.redirector.Redirector]: Redirector CoreMod initialized successfully!
+[05:06:55] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-nuevo/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23113!/ Service=ModLauncher Env=SERVER
+[05:06:55] [main/INFO] [Mods Optimizer]: [Mods Optimizer] ♻ Init ...
+[05:06:55] [main/INFO] [Mods Optimizer]: Game Directory: /workspaces/server-nuevo/servidor_minecraft
+[05:06:55] [main/INFO] [Mods Optimizer]: Mods Directory: /workspaces/server-nuevo/servidor_minecraft/mods
+[05:06:55] [main/INFO] [Mods Optimizer]: Game Environment: SERVER
+[05:06:55] [main/INFO] [Mods Optimizer]: Loading Mods Database Config File from /workspaces/server-nuevo/servidor_minecraft/config/mods_optimizer/config.toml
+[05:06:55] [main/INFO] [Mods Optimizer]: ♻ init with game dir /workspaces/server-nuevo/servidor_minecraft and mods dir /workspaces/server-nuevo/servidor_minecraft/mods for target SERVER in 36 ms.
+[05:06:55] [main/INFO] [Mods Optimizer]: ♻ Parsing Mods data ...
+[05:06:55] [main/INFO] [Mods Optimizer]: [Mod Data] parsing ~92 mods in /workspaces/server-nuevo/servidor_minecraft/mods with file extension .jar ...
+[05:06:55] [main/ERROR] [Mods Optimizer]: TOML file META-INF/mods.toml not found in java.util.jar.JarFile@4b039c6d
+[05:06:55] [main/WARN] [Mods Optimizer]: ⚠ Found no META-INF/mods.toml file for /workspaces/server-nuevo/servidor_minecraft/mods/gml-4.0.9-all.jar!
+[05:06:55] [main/WARN] [Mods Optimizer]: ⚠ Found no side tag inside the dependencies.repurposed_structures[1] section of the mods.toml file /workspaces/server-nuevo/servidor_minecraft/mods/repurposed_structures-7.1.15+1.20.1-forge.jar!
+[05:06:55] [main/INFO] [Mods Optimizer]: [Mod Data] Overwrite mod environment for attributefix from CLIENT to DEFAULT
+[05:06:55] [main/INFO] [Mods Optimizer]: [Mod Data] Found 1 language provider mods in 92 mods.
+[05:06:55] [main/INFO] [Mods Optimizer]: [Mod Data] Found 2 data pack mods in 92 mods.
+[05:06:55] [main/INFO] [Mods Optimizer]: [Mod Data] Found 1 server mods in 92 mods.
+[05:06:55] [main/INFO] [Mods Optimizer]: [Mod Data] Found 88 default mods in 92 mods.
+[05:06:55] [main/INFO] [Mods Optimizer]: -------------------------------------------------------------------------------------------------------------------
+[05:06:55] [main/INFO] [Mods Optimizer]: | ID                                 | VERSION                | TYPE     | ENVIRONMENT       | TIMESTAMP           |
+[05:06:55] [main/INFO] [Mods Optimizer]: -------------------------------------------------------------------------------------------------------------------
+[05:06:55] [main/INFO] [Mods Optimizer]: | saturn                             | 0.1.3                  | FORGE    | DEFAULT           | 2024-02-07 20:05:39 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | dynamiclightsreforged              | 0.0.0                  | FORGE    | DEFAULT           | 2023-09-01 02:27:59 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | treechop                           | 0.18.8                 | FORGE    | UNKNOWN           | 2024-03-09 00:38:10 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | radium                             | 0.12.3+git.50c5c33     | FORGE    | UNKNOWN           | 2024-11-17 03:59:32 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | easyanvils                         | 8.0.2                  | FORGE    | DEFAULT           | 2024-03-04 10:07:14 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | trashslot                          | 15.1.0                 | FORGE    | DEFAULT           | 2023-09-15 10:51:50 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | amendments                         | 1.2.4                  | FORGE    | DEFAULT           | 2024-11-17 03:59:37 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | geckolib                           | 4.4.6                  | FORGE    | DEFAULT           | 2024-06-10 16:16:48 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | playeranimator                     | 1.0.2-rc1+1.20         | FORGE    | UNKNOWN           | 2024-11-17 03:59:21 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | easymagic                          | 8.0.1                  | FORGE    | DEFAULT           | 2023-07-22 21:00:40 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | jei                                | 15.3.0-7               | FORGE    | DEFAULT           | 2024-11-17 03:59:30 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | naturalist                         | 4.0.3                  | FORGE    | DEFAULT           | 2024-11-17 03:59:26 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | attributefix                       | 21.0.4                 | FORGE    | DEFAULT           | 2023-11-29 11:27:15 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | visualworkbench                    | 8.0.0                  | FORGE    | DEFAULT           | 2023-06-27 22:59:57 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | libraryferret                      | 4.0.0                  | FORGE    | DEFAULT           | 2023-06-21 18:22:37 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | mcwwindows                         | 2.2.1                  | FORGE    | UNKNOWN           | 2023-12-16 17:37:41 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | incendium                          | 5.3.5                  | MIXED    | DATA_PACK         | 2024-11-17 03:59:08 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | aquaculturedelight                 | 1.0.0                  | FORGE    | UNKNOWN           | 2024-11-17 03:59:23 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | sophisticatedcore                  | 7.2.756                | FORGE    | DEFAULT           | 2024-11-13 08:53:09 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | gpumemleakfix                      | 1.20.1-1.8             | FORGE    | DEFAULT           | 2023-11-20 21:52:16 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | immersive_weathering               | 1.20.1-2.0.2           | FORGE    | DEFAULT           | 2024-11-17 03:59:19 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | sound_physics_remastered           | 1.20.1-1.4.2           | FORGE    | DEFAULT           | 2024-05-26 16:15:34 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | wardrobe                           | 1.0.3-1                | FORGE    | UNKNOWN           | 2024-11-17 03:59:13 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | villagernames                      | 7.3.0                  | MIXED    | UNKNOWN           | 2023-12-22 15:47:25 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | modernfix                          | 5.18.1+mc1.20.1        | FORGE    | DEFAULT           | 2024-11-17 03:59:29 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | sereneseasons                      | 9.0.0-46               | FORGE    | DEFAULT           | 2023-09-21 13:32:28 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | bookshelf                          | 20.2.13                | FORGE    | DEFAULT           | 2024-06-13 15:16:22 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | mods_optimizer                     | 2.0.0                  | FORGE    | DEFAULT           | 2024-02-25 20:14:49 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | sophisticatedbackpacks             | 3.20.5-1044            | FORGE    | DEFAULT           | 2024-04-27 17:14:44 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | fastconfigapi                      | 1.1.0                  | FORGE    | DEFAULT           | 2024-11-17 03:59:08 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | takesapillage                      | 1.0.3                  | FORGE    | DEFAULT           | 2024-11-17 03:59:08 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | balm                               | 7.3.9                  | FORGE    | DEFAULT           | 2024-08-19 19:50:39 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | terralith                          | 2.5.1                  | MIXED    | DATA_PACK         | 2024-05-17 18:15:47 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | blueprint                          | 7.1.0                  | FORGE    | DEFAULT           | 2024-04-25 22:48:01 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | melody                             | 1.0.2                  | FORGE    | DEFAULT           | 2024-02-15 11:41:44 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | memoryleakfix                      | 1.1.5                  | FORGE    | DEFAULT           | 2024-11-17 03:59:20 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | shieldexp                          | 0.0.0                  | FORGE    | DEFAULT           | 2024-11-17 03:59:09 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | cloth_config                       | 11.1.118               | FORGE    | DEFAULT           | 2024-11-17 03:59:24 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | skinlayers3d                       | 1.6.6                  | FORGE    | UNKNOWN           | 2024-11-17 03:59:29 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | spelunkers_charm                   | 3.6.0                  | FORGE    | UNKNOWN           | 2024-11-17 03:59:08 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | supplementaries                    | 2.8.15                 | FORGE    | DEFAULT           | 2024-11-17 03:59:32 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | embeddium                          | 0.3.20+mc1.20.1        | FORGE    | UNKNOWN           | 2024-11-17 03:59:08 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | konkrete                           | 1.8.0                  | FORGE    | DEFAULT           | 2024-01-13 04:21:05 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | ironchest                          | 1.20.1-14.4.4          | FORGE    | UNKNOWN           | 2023-06-28 22:26:17 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | dungeons_arise                     | 2.1.58-1.20.x          | FORGE    | SERVER            | 2023-12-26 03:23:29 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | tectonic                           | 0.0.0                  | FORGE    | DEFAULT           | 2024-06-05 10:41:58 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | farmersdelight                     | 1.20.1-1.2.4           | FORGE    | DEFAULT           | 2024-01-21 22:49:55 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | repurposed_structures              | 7.1.15+1.20.1-forge    | FORGE    | UNKNOWN           | 2024-11-17 03:59:08 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | moonlight                          | 2.11.41                | FORGE    | DEFAULT           | 2024-11-17 03:59:30 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | radiantgear                        | 2.1.5+1.20.1           | FORGE    | DEFAULT           | 2024-05-06 21:59:20 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | terrablender                       | 3.0.1-7                | FORGE    | DEFAULT           | 2024-05-28 09:37:54 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | biomesoplenty                      | 18.0.0-598             | FORGE    | DEFAULT           | 2023-09-23 09:57:59 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | projectvibrantjourneys             | 1.20.1-6.0.0           | FORGE    | UNKNOWN           | 2023-11-18 12:22:31 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | jade                               | 11.9.3+forge           | FORGE    | DEFAULT           | 2024-06-02 01:56:34 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | endrem                             | 5.2.3-R-1.20.1         | FORGE    | DEFAULT           | 2024-03-16 14:54:11 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | chunky                             | 1.3.146                | FORGE    | DEFAULT           | 2024-11-17 03:59:08 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | creativecore                       | 2.11.30                | FORGE    | DEFAULT           | 2024-05-28 21:44:17 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | personality                        | 4.0.0                  | FORGE    | DEFAULT           | 2024-04-01 14:25:57 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | curios                             | 5.9.1+1.20.1           | FORGE    | DEFAULT           | 2024-05-23 18:59:32 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | quark                              | 4.0.458                | FORGE    | DEFAULT           | 2024-06-11 15:46:40 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | brutalbosses                       | 1.20.1-7.0             | FORGE    | DEFAULT           | 2024-05-31 13:24:50 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | ecologics                          | 2.2.0                  | FORGE    | DEFAULT           | 2024-11-17 03:59:24 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | suppsquared                        | 1.1.14                 | FORGE    | DEFAULT           | 2024-11-17 03:59:21 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | mes                                | 1.3.1-1.20-forge       | FORGE    | DEFAULT           | 2024-11-17 03:59:14 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | collective                         | 7.61.0                 | MIXED    | UNKNOWN           | 2024-05-28 10:45:40 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | securitycraft                      | 1.9.11                 | FORGE    | DEFAULT           | 2024-11-17 04:00:23 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | polymorph                          | 0.49.5+1.20.1          | FORGE    | DEFAULT           | 2024-05-25 17:58:11 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | noseenotick                        | 2.0.0-build.9999       | FORGE    | DEFAULT           | 2023-06-18 23:42:10 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | labellingcontainers                | 1.6.3                  | FORGE    | DEFAULT           | 2024-11-17 03:59:11 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | zeta                               | 1.0.19                 | FORGE    | DEFAULT           | 2024-06-11 13:36:06 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | diagonalfences                     | 8.1.4                  | FORGE    | DEFAULT           | 2024-03-29 13:33:24 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | redirector                         | 5.0.0                  | FORGE    | DEFAULT           | 2024-03-31 06:18:08 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | bettervillage                      | 3.1.0                  | FORGE    | DEFAULT           | 2023-08-14 01:20:50 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | tombstone                          | 8.6.3                  | FORGE    | DEFAULT           | 2024-02-20 11:36:07 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | soulfired                          | 3.2.1-0                | FORGE    | DEFAULT           | 2023-12-20 13:28:22 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | mvs                                | 4.1.2-1.20-forge       | FORGE    | DEFAULT           | 2024-11-17 03:59:15 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | architectury                       | 9.2.14                 | FORGE    | DEFAULT           | 2024-11-17 03:59:21 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | cfm                                | 7.0.0-pre36            | FORGE    | DEFAULT           | 2023-06-22 15:38:34 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | ferritecore                        | 6.0.1                  | FORGE    | DEFAULT           | 2023-10-22 15:27:07 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | moremobvariants                    | 1.3.0-1                | FORGE    | DEFAULT           | 2024-04-21 15:43:02 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | cupboard                           | 1.20.1-2.6             | FORGE    | DEFAULT           | 2024-03-09 23:28:46 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | puzzleslib                         | 8.1.20                 | FORGE    | DEFAULT           | 2024-05-26 13:29:15 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | org.groovymc.gml                   | 4.0.9                  | FORGE    | LANGUAGE_PROVIDER | 2024-11-17 03:59:26 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | aquaculture                        | 2.5.1                  | FORGE    | DEFAULT           | 2024-11-17 03:59:23 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | mns                                | 1.0.1-1.20-forge       | FORGE    | DEFAULT           | 2024-11-17 03:59:08 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | krypton                            | 0.2.3                  | FORGE    | DEFAULT           | 2023-06-24 02:49:29 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | bushierflowers                     | 0.0.3-1.20.1           | FORGE    | DEFAULT           | 2023-07-02 18:06:23 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | mavapi                             | 1.1.4                  | MIXED    | DEFAULT           | 2024-11-17 03:59:17 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | mavm                               | 1.2.6                  | MIXED    | DEFAULT           | 2024-11-17 03:59:18 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | shulkerboxtooltip                  | 4.0.4+1.20.1           | FORGE    | DEFAULT           | 2024-11-17 03:59:23 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | chunksending                       | 1.20.1-2.8             | FORGE    | DEFAULT           | 2023-11-23 21:08:36 |
+[05:06:55] [main/INFO] [Mods Optimizer]: | playerrevive                       | 2.0.29                 | FORGE    | DEFAULT           | 2024-10-28 11:05:53 |
+[05:06:55] [main/INFO] [Mods Optimizer]: -------------------------------------------------------------------------------------------------------------------
+[05:06:55] [main/INFO] [Mods Optimizer]: ♻ Parsed 92 mods in 203 ms.
+[05:06:55] [main/INFO] [Mods Optimizer]: ✔ No duplicated mods found.
+[05:06:55] [main/WARN] [Mods Optimizer]: ✔ No mods for client-side checks found!
+[05:06:55] [main/INFO] [Mods Optimizer]: ⏱ Mod Optimizer needs 244 ms in total.
+[05:06:56] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[05:06:56] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 33 dependencies adding them to mods collection
+[05:06:56] [main/INFO] [org.groovymc.gml.mappings.MappingsProvider]: Starting runtime mappings setup...
+[05:06:56] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector]: Injecting ScriptModLocator candidates...
+[05:06:56] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator]: Injected Jimfs file system
+[05:06:56] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator]: Skipped loading script mods from directory /workspaces/server-nuevo/servidor_minecraft/mods/scripts as it did not exist.
+[05:06:56] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
+[05:06:59] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider]: Loaded runtime mappings in 2687ms
+[05:06:59] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider]: Finished runtime mappings setup.
+[05:06:59] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[05:06:59] [main/ERROR] [mixin]: Mixin config dynamiclightsreforged.mixins.json does not specify "minVersion" property
+[05:07:00] [main/ERROR] [mixin]: Mixin config noseenotick.mixins.json does not specify "minVersion" property
+[05:07:00] [main/INFO] [mixin]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[05:07:00] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[05:07:00] [main/INFO] [com.abdelaziz.saturn.common.Saturn]: Loaded Saturn config file with 4 configurable options
+[05:07:00] [main/WARN] [mixin]: Reference map 'naturalist-forge-forge-refmap.json' for naturalist.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:07:00] [main/INFO] [ModernFix]: Loaded configuration file for ModernFix 5.18.1+mc1.20.1: 83 options available, 0 override(s) found
+[05:07:00] [main/INFO] [ModernFix]: Applying Nashorn fix
+[05:07:00] [main/INFO] [ModernFix]: Applied Forge config corruption patch
+[05:07:00] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/llamalad7/mixinextras/service/MixinExtrasVersion
+[05:07:00] [main/INFO] [Embeddium]: Loaded configuration file for Embeddium: 145 options available, 0 override(s) found
+[05:07:00] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/embeddedt/embeddium/taint/mixin/MixinTaintDetector$EnforceLevel
+[05:07:00] [main/INFO] [Radium Config]: Loaded configuration file for Radium: 125 options available, 1 override(s) found
+[05:07:00] [main/WARN] [mixin]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:07:00] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting ca/fxco/memoryleakfix/mixinextras/service/MixinExtrasVersion
+[05:07:00] [main/WARN] [mixin]: Reference map 'mes-forge-refmap.json' for mes-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:07:00] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/illusivesoulworks/polymorph/common/integration/PolymorphIntegrations$Mod
+[05:07:00] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/illusivesoulworks/polymorph/common/integration/PolymorphIntegrations$Loader
+[05:07:00] [main/WARN] [mixin]: Reference map 'suppsquared-common-refmap.json' for suppsquared-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:07:00] [main/WARN] [mixin]: Reference map 'suppsquared-forge-refmap.json' for suppsquared.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:07:00] [main/WARN] [mixin]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:07:00] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting malte0811/ferritecore/mixin/config/FerriteMixinConfig$LithiumSupportState
+[05:07:00] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting fuzs/puzzleslib/api/core/v1/ModLoader
+[05:07:00] [main/INFO] [Puzzles Lib]: All mods {/workspaces/server-nuevo/servidor_minecraft/mods/memoryleakfix-forge-1.17+-1.1.5.jar#339!/=fuzs.puzzleslib.impl.core.ForgeModContainer@cbdc0f4, /workspaces/server-nuevo/servidor_minecraft/mods/Bookshelf-Forge-1.20.1-20.2.13.jar#301!/=fuzs.puzzleslib.impl.core.ForgeModContainer@11174bf, /workspaces/server-nuevo/servidor_minecraft/mods/Incendium_1.20.x_v5.3.5.jar#327!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4f0c1409, /workspaces/server-nuevo/servidor_minecraft/mods/supplementaries-1.20-2.8.15.jar#368_/META-INF/jars/mixinextras-forge-0.3.6.jar#440!/=fuzs.puzzleslib.impl.core.ForgeModContainer@188ae8d2, /workspaces/server-nuevo/servidor_minecraft/mods/personality-1.20.1-4.0.0.jar#348!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7a522157, /workspaces/server-nuevo/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#353_/META-INF/jarjar/puzzlesaccessapi-forge-8.0.7.jar#445!/=fuzs.puzzleslib.impl.core.ForgeModContainer@706c062e, /workspaces/server-nuevo/servidor_minecraft/mods/TerraBlender-forge-1.20.1-3.0.1.7.jar#372!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5feff876, /workspaces/server-nuevo/servidor_minecraft/mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar#331!/=fuzs.puzzleslib.impl.core.ForgeModContainer@10ec4721, /workspaces/server-nuevo/servidor_minecraft/mods/blueprint-1.20.1-7.1.0.jar#300!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7bdf94f2, /workspaces/server-nuevo/servidor_minecraft/mods/villagernames-1.20.1-7.3.jar#377!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6b92a0d1, /workspaces/server-nuevo/servidor_minecraft/mods/ShieldExpansion-1.20.1-1.1.7a.jar#360!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4b9ed99d, /workspaces/server-nuevo/servidor_minecraft/mods/ecologics-forge-1.20.1-2.2.0.jar#317!/=fuzs.puzzleslib.impl.core.ForgeModContainer@39b95a80, /workspaces/server-nuevo/servidor_minecraft/mods/bushierflowers-0.0.3-1.20.1.jar#303!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3ec62141, /workspaces/server-nuevo/servidor_minecraft/mods/moremobvariants-forge+1.20.1-1.3.0.1.jar#344!/=fuzs.puzzleslib.impl.core.ForgeModContainer@402c9a60, /workspaces/server-nuevo/servidor_minecraft/mods/architectury-9.2.14-forge.jar#295!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7d43f1c9, /workspaces/server-nuevo/servidor_minecraft/mods/projectvibrantjourneys-1.20.1-6.0.0.jar#352!/=fuzs.puzzleslib.impl.core.ForgeModContainer@eddc9bb, /workspaces/server-nuevo/servidor_minecraft/mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar#338!/=fuzs.puzzleslib.impl.core.ForgeModContainer@11e3d08, /workspaces/server-nuevo/servidor_minecraft/mods/tombstone-1.20.1-8.6.3.jar#374!/=fuzs.puzzleslib.impl.core.ForgeModContainer@25c548d1, /workspaces/server-nuevo/servidor_minecraft/mods/fastconfigapi-1.1.0.jar#321!/=fuzs.puzzleslib.impl.core.ForgeModContainer@476a2819, /workspaces/server-nuevo/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar#349!/=fuzs.puzzleslib.impl.core.ForgeModContainer@279ab15e, /workspaces/server-nuevo/servidor_minecraft/mods/KryptonReforged-0.2.3.jar#332!/=fuzs.puzzleslib.impl.core.ForgeModContainer@571c2ed8, /workspaces/server-nuevo/servidor_minecraft/mods/dynamiclightsreforged-1.20.1_v1.6.0.jar#314!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5810772a, /workspaces/server-nuevo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#382!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4eacb6d1, /workspaces/server-nuevo/servidor_minecraft/mods/gpumemleakfix-1.20.1-1.8.jar#325!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3ccefe1b, /workspaces/server-nuevo/servidor_minecraft/mods/DungeonsArise-1.20.x-2.1.58-release.jar#313!/=fuzs.puzzleslib.impl.core.ForgeModContainer@a926db4, /workspaces/server-nuevo/servidor_minecraft/mods/DiagonalFences-v8.1.4-1.20.1-Forge.jar#312!/=fuzs.puzzleslib.impl.core.ForgeModContainer@51e0f2eb, /workspaces/server-nuevo/servidor_minecraft/mods/brutalbosses-1.20.1-7.0.jar#302!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7a51dc38, /workspaces/server-nuevo/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#353!/=fuzs.puzzleslib.impl.core.ForgeModContainer@31a4db4f, /workspaces/server-nuevo/servidor_minecraft/mods/Chunky-1.3.146.jar#306!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2842ef02, /workspaces/server-nuevo/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar#307!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7e63374b, /workspaces/server-nuevo/servidor_minecraft/mods/Jade-1.20.1-forge-11.9.3.jar#329!/=fuzs.puzzleslib.impl.core.ForgeModContainer@aa794a3, /workspaces/server-nuevo/servidor_minecraft/mods/trashslot-forge-1.20-15.1.0.jar#375!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1dce481b, /workspaces/server-nuevo/servidor_minecraft/mods/moonlight-1.20-2.11.41-forge.jar#343!/=fuzs.puzzleslib.impl.core.ForgeModContainer@22cb8e5f, /workspaces/server-nuevo/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#351!/=fuzs.puzzleslib.impl.core.ForgeModContainer@45753c22, /workspaces/server-nuevo/servidor_minecraft/mods/AttributeFix-Forge-1.20.1-21.0.4.jar#296!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7341baa3, /workspaces/server-nuevo/servidor_minecraft/mods/Zeta-1.0-19.jar#380!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1ca0aa40, /workspaces/server-nuevo/servidor_minecraft/mods/gml-4.0.9-all.jar#324_/META-INF/jarjar/cgl-1.20-forge-0.3.3.jar#462!/=fuzs.puzzleslib.impl.core.ForgeModContainer@626766fd, /workspaces/server-nuevo/servidor_minecraft/mods/repurposed_structures-7.1.15+1.20.1-forge.jar#357!/=fuzs.puzzleslib.impl.core.ForgeModContainer@e1fd2bf, /workspaces/server-nuevo/servidor_minecraft/mods/labellingcontainers-1.6.3.jar#333!/=fuzs.puzzleslib.impl.core.ForgeModContainer@70f5f57d, /workspaces/server-nuevo/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.6.jar#323!/=fuzs.puzzleslib.impl.core.ForgeModContainer@691eb389, /workspaces/server-nuevo/servidor_minecraft/mods/EasyMagic-v8.0.1-1.20.1-Forge.jar#316!/=fuzs.puzzleslib.impl.core.ForgeModContainer@301770d9, /workspaces/server-nuevo/servidor_minecraft/mods/naturalist-forge-4.0.3-1.20.1.jar#346!/=fuzs.puzzleslib.impl.core.ForgeModContainer@40edc64e, /workspaces/server-nuevo/servidor_minecraft/mods/mns-1.0.1-1.20-forge.jar#341!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1fec9d33, /workspaces/server-nuevo/servidor_minecraft/mods/PlayerRevive_FORGE_v2.0.29_mc1.20.1.jar#350!/=fuzs.puzzleslib.impl.core.ForgeModContainer@372f7bc, /workspaces/server-nuevo/servidor_minecraft/mods/endrem_forge-5.2.3-R-1.20.X.jar#319!/=fuzs.puzzleslib.impl.core.ForgeModContainer@8e8ceb3, /workspaces/server-nuevo/servidor_minecraft/mods/Quark-4.0-458.jar#354!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2699b656, /workspaces/server-nuevo/servidor_minecraft/mods/suppsquared-1.20-1.1.14.jar#369!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5d67b2b3, /workspaces/server-nuevo/servidor_minecraft/mods/collective-1.20.1-7.61.jar#308!/=fuzs.puzzleslib.impl.core.ForgeModContainer@49bc71b4, /workspaces/server-nuevo/servidor_minecraft/mods/saturn-mc1.20.1-0.1.3.jar#358!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7efa366, /workspaces/server-nuevo/servidor_minecraft/mods/Aquaculture-1.20.1-2.5.1.jar#293!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6c2f8ecb, /workspaces/server-nuevo/servidor_minecraft/mods/supplementaries-1.20-2.8.15.jar#368_/META-INF/jars/mixinsquared-forge-0.1.1.jar#463!/=fuzs.puzzleslib.impl.core.ForgeModContainer@c3d4bd7, /workspaces/server-nuevo/servidor_minecraft/mods/VisualWorkbench-v8.0.0-1.20.1-Forge.jar#378!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2626aa35, /workspaces/server-nuevo/servidor_minecraft/mods/tectonic-forge-1.19.3-2.3.5a.jar#371!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5ca8c904, /workspaces/server-nuevo/servidor_minecraft/mods/radium-mc1.20.1-0.12.3+git.50c5c33.jar#356!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4c614d8c, /workspaces/server-nuevo/servidor_minecraft/mods/modernfix-forge-5.18.1+mc1.20.1.jar#342!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2ae4c424, /workspaces/server-nuevo/servidor_minecraft/mods/cupboard-1.20.1-2.6.jar#310!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3980b44f, /workspaces/server-nuevo/servidor_minecraft/mods/bettervillage-forge-1.20.1-3.2.0.jar#298!/=fuzs.puzzleslib.impl.core.ForgeModContainer@237aba92, /workspaces/server-nuevo/servidor_minecraft/mods/shulkerboxtooltip-forge-4.0.4+1.20.1.jar#361!/=fuzs.puzzleslib.impl.core.ForgeModContainer@65b19e5c, /workspaces/server-nuevo/servidor_minecraft/mods/soulfired-1.20.1-3.2.1.0-forge.jar#365!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6978a32a, /workspaces/server-nuevo/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#351_/META-INF/jarjar/spectrelib-forge-0.13.15+1.20.1.jar#457!/=fuzs.puzzleslib.impl.core.ForgeModContainer@55665086, /workspaces/server-nuevo/servidor_minecraft/mods/gml-4.0.9-all.jar#324_/META-INF/jarjar/mod-4.0.9.jar#446!/=fuzs.puzzleslib.impl.core.ForgeModContainer@233ece92, /workspaces/server-nuevo/servidor_minecraft/mods/supplementaries-1.20-2.8.15.jar#368!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4a14f7d7, /workspaces/server-nuevo/servidor_minecraft/mods/takesapillage-1.0.3-1.20.1.jar#370!/=fuzs.puzzleslib.impl.core.ForgeModContainer@66596c4c, /workspaces/server-nuevo/servidor_minecraft/mods/mavm-1.2.6-mc1.20.1.jar#336!/=fuzs.puzzleslib.impl.core.ForgeModContainer@15ce261, /workspaces/server-nuevo/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.11/forge-1.20.1-47.3.11-universal.jar#387!/=fuzs.puzzleslib.impl.core.ForgeModContainer@54c3e686, /workspaces/server-nuevo/servidor_minecraft/mods/spelunkers_charm-3.6.0-1.20.1.jar#367!/=fuzs.puzzleslib.impl.core.ForgeModContainer@39840986, /workspaces/server-nuevo/servidor_minecraft/mods/immersive_weathering-1.20.1-2.0.2-forge.jar#326!/=fuzs.puzzleslib.impl.core.ForgeModContainer@141229f6, /workspaces/server-nuevo/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.30_mc1.20.1.jar#309!/=fuzs.puzzleslib.impl.core.ForgeModContainer@723b8eff, /workspaces/server-nuevo/servidor_minecraft/mods/amendments-1.20-1.2.4.jar#292!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3987a1e8, /workspaces/server-nuevo/servidor_minecraft/mods/DiagonalFences-v8.1.4-1.20.1-Forge.jar#312_/META-INF/jarjar/diagonalblocks-forge-8.0.5.jar#454!/=fuzs.puzzleslib.impl.core.ForgeModContainer@20d65767, /workspaces/server-nuevo/servidor_minecraft/mods/TreeChop-1.20.1-forge-0.19.0.jar#376!/=fuzs.puzzleslib.impl.core.ForgeModContainer@250e8712, /workspaces/server-nuevo/servidor_minecraft/mods/jei-1.20.1-forge-15.3.0.7.jar#330!/=fuzs.puzzleslib.impl.core.ForgeModContainer@becb93a, /workspaces/server-nuevo/servidor_minecraft/mods/Terralith_1.20_v2.5.1.jar#373!/=fuzs.puzzleslib.impl.core.ForgeModContainer@f60c14e, /workspaces/server-nuevo/servidor_minecraft/mods/libraryferret-forge-1.20.1-4.0.0.jar#334!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1d1fd2aa, /workspaces/server-nuevo/servidor_minecraft/mods/aquaculture_delight_1.0.0_forge_1.20.1.jar#294!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4c78e00c, /workspaces/server-nuevo/servidor_minecraft/mods/wardrobe-1.0.3.1-forge-1.20.1.jar#379!/=fuzs.puzzleslib.impl.core.ForgeModContainer@22b3b5d0, /workspaces/server-nuevo/servidor_minecraft/mods/[1.20.1] SecurityCraft v1.9.11.jar#291!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2b506a79, /workspaces/server-nuevo/servidor_minecraft/mods/radiantgear-forge-2.1.5+1.20.1.jar#355!/=fuzs.puzzleslib.impl.core.ForgeModContainer@48b9773b, /workspaces/server-nuevo/servidor_minecraft/mods/ironchest-1.20.1-14.4.4.jar#328!/=fuzs.puzzleslib.impl.core.ForgeModContainer@43ca96a0, /workspaces/server-nuevo/servidor_minecraft/mods/cfm-forge-1.20.1-7.0.0-pre36.jar#304!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7c68a63c, /workspaces/server-nuevo/servidor_minecraft/mods/mcw-windows-2.2.1-mc1.20.1forge.jar#337!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5443086a, /workspaces/server-nuevo/servidor_minecraft/mods/sophisticatedbackpacks-1.20.1-3.20.5.1044.jar#363!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5740ad76, /workspaces/server-nuevo/servidor_minecraft/mods/mavapi-1.1.4-mc1.20.1.jar#335!/=fuzs.puzzleslib.impl.core.ForgeModContainer@40a84ea8, /workspaces/server-nuevo/servidor_minecraft/mods/EasyAnvils-v8.0.2-1.20.1-Forge.jar#315!/=fuzs.puzzleslib.impl.core.ForgeModContainer@79c849c7, /workspaces/server-nuevo/servidor_minecraft/mods/BiomesOPlenty-1.20.1-18.0.0.598.jar#299!/=fuzs.puzzleslib.impl.core.ForgeModContainer@35840ecc, /workspaces/server-nuevo/servidor_minecraft/mods/mvs-4.1.2-1.20-forge.jar#345!/=fuzs.puzzleslib.impl.core.ForgeModContainer@67fd2e17, /workspaces/server-nuevo/servidor_minecraft/mods/ferritecore-6.0.1-forge.jar#322!/=fuzs.puzzleslib.impl.core.ForgeModContainer@65a2e14e, /workspaces/server-nuevo/servidor_minecraft/mods/sound-physics-remastered-forge-1.20.1-1.4.2.jar#366!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5e9f1a4c, /workspaces/server-nuevo/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar#311!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4bf89d3d, /workspaces/server-nuevo/servidor_minecraft/mods/chunksending-1.20.1-2.8.jar#305!/=fuzs.puzzleslib.impl.core.ForgeModContainer@457b8fc3, /workspaces/server-nuevo/servidor_minecraft/mods/NoSeeNoTick-2.0.0-1.20.1.jar#347!/=fuzs.puzzleslib.impl.core.ForgeModContainer@37a1beb3, /workspaces/server-nuevo/servidor_minecraft/mods/embeddium-0.3.20+mc1.20.1.jar#318!/=fuzs.puzzleslib.impl.core.ForgeModContainer@11ca8f71, /workspaces/server-nuevo/servidor_minecraft/mods/balm-forge-1.20.1-7.3.9-all.jar#297!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1e54e900, /workspaces/server-nuevo/servidor_minecraft/mods/skinlayers3d-forge-1.6.6-mc1.20.1.jar#362!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7c8689e, /workspaces/server-nuevo/servidor_minecraft/mods/FarmersDelight-1.20.1-1.2.4.jar#320!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3da61af2, /workspaces/server-nuevo/servidor_minecraft/mods/mes-1.3.1-1.20-forge.jar#340!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7852ab30, /workspaces/server-nuevo/servidor_minecraft/mods/SereneSeasons-1.20.1-9.0.0.46.jar#359!/=fuzs.puzzleslib.impl.core.ForgeModContainer@417751d3, /workspaces/server-nuevo/servidor_minecraft/mods/sophisticatedcore-1.20.1-0.7.2.756.jar#364!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5bf4dfb, /workspaces/server-nuevo/servidor_minecraft/mods/balm-forge-1.20.1-7.3.9-all.jar#297_/META-INF/jarjar/kuma-api-forge-20.1.8+1.20.1.jar#435!/=fuzs.puzzleslib.impl.core.ForgeModContainer@8c3b634}
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for memoryleakfix: /workspaces/server-nuevo/servidor_minecraft/mods/memoryleakfix-forge-1.17+-1.1.5.jar#339!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for bookshelf: /workspaces/server-nuevo/servidor_minecraft/mods/Bookshelf-Forge-1.20.1-20.2.13.jar#301!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for incendium: /workspaces/server-nuevo/servidor_minecraft/mods/Incendium_1.20.x_v5.3.5.jar#327!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for mixinextras: /workspaces/server-nuevo/servidor_minecraft/mods/supplementaries-1.20-2.8.15.jar#368!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for personality: /workspaces/server-nuevo/servidor_minecraft/mods/personality-1.20.1-4.0.0.jar#348!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for puzzlesaccessapi: /workspaces/server-nuevo/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#353!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for terrablender: /workspaces/server-nuevo/servidor_minecraft/mods/TerraBlender-forge-1.20.1-3.0.1.7.jar#372!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for konkrete: /workspaces/server-nuevo/servidor_minecraft/mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar#331!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for blueprint: /workspaces/server-nuevo/servidor_minecraft/mods/blueprint-1.20.1-7.1.0.jar#300!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for villagernames: /workspaces/server-nuevo/servidor_minecraft/mods/villagernames-1.20.1-7.3.jar#377!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for shieldexp: /workspaces/server-nuevo/servidor_minecraft/mods/ShieldExpansion-1.20.1-1.1.7a.jar#360!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for ecologics: /workspaces/server-nuevo/servidor_minecraft/mods/ecologics-forge-1.20.1-2.2.0.jar#317!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for bushierflowers: /workspaces/server-nuevo/servidor_minecraft/mods/bushierflowers-0.0.3-1.20.1.jar#303!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for moremobvariants: /workspaces/server-nuevo/servidor_minecraft/mods/moremobvariants-forge+1.20.1-1.3.0.1.jar#344!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for architectury: /workspaces/server-nuevo/servidor_minecraft/mods/architectury-9.2.14-forge.jar#295!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for projectvibrantjourneys: /workspaces/server-nuevo/servidor_minecraft/mods/projectvibrantjourneys-1.20.1-6.0.0.jar#352!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for melody: /workspaces/server-nuevo/servidor_minecraft/mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar#338!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for tombstone: /workspaces/server-nuevo/servidor_minecraft/mods/tombstone-1.20.1-8.6.3.jar#374!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for fastconfigapi: /workspaces/server-nuevo/servidor_minecraft/mods/fastconfigapi-1.1.0.jar#321!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for playeranimator: /workspaces/server-nuevo/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar#349!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for krypton: /workspaces/server-nuevo/servidor_minecraft/mods/KryptonReforged-0.2.3.jar#332!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for dynamiclightsreforged: /workspaces/server-nuevo/servidor_minecraft/mods/dynamiclightsreforged-1.20.1_v1.6.0.jar#314!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for minecraft: /workspaces/server-nuevo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#382!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for gpumemleakfix: /workspaces/server-nuevo/servidor_minecraft/mods/gpumemleakfix-1.20.1-1.8.jar#325!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for dungeons_arise: /workspaces/server-nuevo/servidor_minecraft/mods/DungeonsArise-1.20.x-2.1.58-release.jar#313!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for diagonalfences: /workspaces/server-nuevo/servidor_minecraft/mods/DiagonalFences-v8.1.4-1.20.1-Forge.jar#312!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for brutalbosses: /workspaces/server-nuevo/servidor_minecraft/mods/brutalbosses-1.20.1-7.0.jar#302!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for puzzleslib: /workspaces/server-nuevo/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#353!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for chunky: /workspaces/server-nuevo/servidor_minecraft/mods/Chunky-1.3.146.jar#306!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for cloth_config: /workspaces/server-nuevo/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar#307!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for jade: /workspaces/server-nuevo/servidor_minecraft/mods/Jade-1.20.1-forge-11.9.3.jar#329!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for trashslot: /workspaces/server-nuevo/servidor_minecraft/mods/trashslot-forge-1.20-15.1.0.jar#375!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for moonlight: /workspaces/server-nuevo/servidor_minecraft/mods/moonlight-1.20-2.11.41-forge.jar#343!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for polymorph: /workspaces/server-nuevo/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#351!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for attributefix: /workspaces/server-nuevo/servidor_minecraft/mods/AttributeFix-Forge-1.20.1-21.0.4.jar#296!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for zeta: /workspaces/server-nuevo/servidor_minecraft/mods/Zeta-1.0-19.jar#380!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for commongroovylibrary: /workspaces/server-nuevo/servidor_minecraft/mods/gml-4.0.9-all.jar#324!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for repurposed_structures: /workspaces/server-nuevo/servidor_minecraft/mods/repurposed_structures-7.1.15+1.20.1-forge.jar#357!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for labellingcontainers: /workspaces/server-nuevo/servidor_minecraft/mods/labellingcontainers-1.6.3.jar#333!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for geckolib: /workspaces/server-nuevo/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.6.jar#323!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for easymagic: /workspaces/server-nuevo/servidor_minecraft/mods/EasyMagic-v8.0.1-1.20.1-Forge.jar#316!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for naturalist: /workspaces/server-nuevo/servidor_minecraft/mods/naturalist-forge-4.0.3-1.20.1.jar#346!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for mns: /workspaces/server-nuevo/servidor_minecraft/mods/mns-1.0.1-1.20-forge.jar#341!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for playerrevive: /workspaces/server-nuevo/servidor_minecraft/mods/PlayerRevive_FORGE_v2.0.29_mc1.20.1.jar#350!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for endrem: /workspaces/server-nuevo/servidor_minecraft/mods/endrem_forge-5.2.3-R-1.20.X.jar#319!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for quark: /workspaces/server-nuevo/servidor_minecraft/mods/Quark-4.0-458.jar#354!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for suppsquared: /workspaces/server-nuevo/servidor_minecraft/mods/suppsquared-1.20-1.1.14.jar#369!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for collective: /workspaces/server-nuevo/servidor_minecraft/mods/collective-1.20.1-7.61.jar#308!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for saturn: /workspaces/server-nuevo/servidor_minecraft/mods/saturn-mc1.20.1-0.1.3.jar#358!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for aquaculture: /workspaces/server-nuevo/servidor_minecraft/mods/Aquaculture-1.20.1-2.5.1.jar#293!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for mixinsquared: /workspaces/server-nuevo/servidor_minecraft/mods/supplementaries-1.20-2.8.15.jar#368!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for visualworkbench: /workspaces/server-nuevo/servidor_minecraft/mods/VisualWorkbench-v8.0.0-1.20.1-Forge.jar#378!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for tectonic: /workspaces/server-nuevo/servidor_minecraft/mods/tectonic-forge-1.19.3-2.3.5a.jar#371!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for radium: /workspaces/server-nuevo/servidor_minecraft/mods/radium-mc1.20.1-0.12.3+git.50c5c33.jar#356!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for modernfix: /workspaces/server-nuevo/servidor_minecraft/mods/modernfix-forge-5.18.1+mc1.20.1.jar#342!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for cupboard: /workspaces/server-nuevo/servidor_minecraft/mods/cupboard-1.20.1-2.6.jar#310!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for bettervillage: /workspaces/server-nuevo/servidor_minecraft/mods/bettervillage-forge-1.20.1-3.2.0.jar#298!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for shulkerboxtooltip: /workspaces/server-nuevo/servidor_minecraft/mods/shulkerboxtooltip-forge-4.0.4+1.20.1.jar#361!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for soulfired: /workspaces/server-nuevo/servidor_minecraft/mods/soulfired-1.20.1-3.2.1.0-forge.jar#365!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for spectrelib: /workspaces/server-nuevo/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#351!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for gml: /workspaces/server-nuevo/servidor_minecraft/mods/gml-4.0.9-all.jar#324!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for supplementaries: /workspaces/server-nuevo/servidor_minecraft/mods/supplementaries-1.20-2.8.15.jar#368!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for takesapillage: /workspaces/server-nuevo/servidor_minecraft/mods/takesapillage-1.0.3-1.20.1.jar#370!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for mavm: /workspaces/server-nuevo/servidor_minecraft/mods/mavm-1.2.6-mc1.20.1.jar#336!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for forge: /workspaces/server-nuevo/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.11/forge-1.20.1-47.3.11-universal.jar#387!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for spelunkers_charm: /workspaces/server-nuevo/servidor_minecraft/mods/spelunkers_charm-3.6.0-1.20.1.jar#367!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for immersive_weathering: /workspaces/server-nuevo/servidor_minecraft/mods/immersive_weathering-1.20.1-2.0.2-forge.jar#326!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for creativecore: /workspaces/server-nuevo/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.30_mc1.20.1.jar#309!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for amendments: /workspaces/server-nuevo/servidor_minecraft/mods/amendments-1.20-1.2.4.jar#292!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for diagonalblocks: /workspaces/server-nuevo/servidor_minecraft/mods/DiagonalFences-v8.1.4-1.20.1-Forge.jar#312!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for treechop: /workspaces/server-nuevo/servidor_minecraft/mods/TreeChop-1.20.1-forge-0.19.0.jar#376!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for jei: /workspaces/server-nuevo/servidor_minecraft/mods/jei-1.20.1-forge-15.3.0.7.jar#330!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for terralith: /workspaces/server-nuevo/servidor_minecraft/mods/Terralith_1.20_v2.5.1.jar#373!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for libraryferret: /workspaces/server-nuevo/servidor_minecraft/mods/libraryferret-forge-1.20.1-4.0.0.jar#334!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for aquaculturedelight: /workspaces/server-nuevo/servidor_minecraft/mods/aquaculture_delight_1.0.0_forge_1.20.1.jar#294!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for wardrobe: /workspaces/server-nuevo/servidor_minecraft/mods/wardrobe-1.0.3.1-forge-1.20.1.jar#379!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for securitycraft: /workspaces/server-nuevo/servidor_minecraft/mods/[1.20.1] SecurityCraft v1.9.11.jar#291!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for radiantgear: /workspaces/server-nuevo/servidor_minecraft/mods/radiantgear-forge-2.1.5+1.20.1.jar#355!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for ironchest: /workspaces/server-nuevo/servidor_minecraft/mods/ironchest-1.20.1-14.4.4.jar#328!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for cfm: /workspaces/server-nuevo/servidor_minecraft/mods/cfm-forge-1.20.1-7.0.0-pre36.jar#304!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for mcwwindows: /workspaces/server-nuevo/servidor_minecraft/mods/mcw-windows-2.2.1-mc1.20.1forge.jar#337!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for sophisticatedbackpacks: /workspaces/server-nuevo/servidor_minecraft/mods/sophisticatedbackpacks-1.20.1-3.20.5.1044.jar#363!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for mavapi: /workspaces/server-nuevo/servidor_minecraft/mods/mavapi-1.1.4-mc1.20.1.jar#335!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for easyanvils: /workspaces/server-nuevo/servidor_minecraft/mods/EasyAnvils-v8.0.2-1.20.1-Forge.jar#315!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for biomesoplenty: /workspaces/server-nuevo/servidor_minecraft/mods/BiomesOPlenty-1.20.1-18.0.0.598.jar#299!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for mvs: /workspaces/server-nuevo/servidor_minecraft/mods/mvs-4.1.2-1.20-forge.jar#345!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for ferritecore: /workspaces/server-nuevo/servidor_minecraft/mods/ferritecore-6.0.1-forge.jar#322!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for sound_physics_remastered: /workspaces/server-nuevo/servidor_minecraft/mods/sound-physics-remastered-forge-1.20.1-1.4.2.jar#366!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for curios: /workspaces/server-nuevo/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar#311!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for chunksending: /workspaces/server-nuevo/servidor_minecraft/mods/chunksending-1.20.1-2.8.jar#305!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for noseenotick: /workspaces/server-nuevo/servidor_minecraft/mods/NoSeeNoTick-2.0.0-1.20.1.jar#347!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for embeddium: /workspaces/server-nuevo/servidor_minecraft/mods/embeddium-0.3.20+mc1.20.1.jar#318!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for balm: /workspaces/server-nuevo/servidor_minecraft/mods/balm-forge-1.20.1-7.3.9-all.jar#297!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for skinlayers3d: /workspaces/server-nuevo/servidor_minecraft/mods/skinlayers3d-forge-1.6.6-mc1.20.1.jar#362!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for farmersdelight: /workspaces/server-nuevo/servidor_minecraft/mods/FarmersDelight-1.20.1-1.2.4.jar#320!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for mes: /workspaces/server-nuevo/servidor_minecraft/mods/mes-1.3.1-1.20-forge.jar#340!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for sereneseasons: /workspaces/server-nuevo/servidor_minecraft/mods/SereneSeasons-1.20.1-9.0.0.46.jar#359!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for sophisticatedcore: /workspaces/server-nuevo/servidor_minecraft/mods/sophisticatedcore-1.20.1-0.7.2.756.jar#364!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Scheme for kuma_api: /workspaces/server-nuevo/servidor_minecraft/mods/balm-forge-1.20.1-7.3.9-all.jar#297!/
+[05:07:00] [main/INFO] [Puzzles Lib]: Loading 99 mods:
+	- amendments 1.20-1.2.4
+	- aquaculture 2.5.1
+	- aquaculturedelight 1.0.0
+	- architectury 9.2.14
+	- attributefix 21.0.4
+	- balm 7.3.9
+		\-- kuma_api 20.1.8
+	- bettervillage 3.1.0
+	- biomesoplenty 18.0.0.598
+	- blueprint 7.1.0
+	- bookshelf 20.2.13
+	- brutalbosses 1.20.1-7.0
+	- bushierflowers 0.0.3-1.20.1
+	- cfm 7.0.0-pre36
+	- chunksending 1.20.1-2.8
+	- chunky 1.3.146
+	- cloth_config 11.1.118
+	- collective 7.61
+	- commongroovylibrary 0.3.3
+	- creativecore 2.11.30
+	- cupboard 1.20.1-2.6
+	- curios 5.9.1+1.20.1
+	- diagonalfences 8.1.4
+		\-- diagonalblocks 8.0.5
+	- dungeons_arise 2.1.58-1.20.x
+	- dynamiclightsreforged 1.20.1_v1.6.0
+	- easyanvils 8.0.2
+	- easymagic 8.0.1
+	- ecologics 2.2.0
+	- embeddium 0.3.20+mc1.20.1
+		\-- rubidium 0.7.1
+	- endrem 5.2.3-R-1.20.1
+	- farmersdelight 1.20.1-1.2.4
+	- fastconfigapi 1.1.0
+	- ferritecore 6.0.1
+	- forge 47.3.11
+		\-- mohist 1.20.1
+	- geckolib 4.4.6
+	- gml 4.0.9
+	- gpumemleakfix 1.20.1-1.8
+	- immersive_weathering 1.20.1-2.0.2
+	- incendium 5.3.5
+	- ironchest 1.20.1-14.4.4
+	- jade 11.9.3+forge
+	- jei 15.3.0.7
+	- konkrete 1.8.0
+	- krypton 0.2.3
+	- labellingcontainers 1.6.3
+	- libraryferret 4.0.0
+	- mavapi 1.1.4
+	- mavm 1.2.6
+	- mcwwindows 2.2.1
+	- melody 1.0.2
+	- memoryleakfix 1.1.5
+	- mes 1.3.1-1.20-forge
+	- minecraft 1.20.1
+	- mns 1.0.1-1.20-forge
+	- modernfix 5.18.1+mc1.20.1
+	- moonlight 1.20-2.11.41
+	- moremobvariants 1.3.0.1
+	- mvs 4.1.2-1.20-forge
+	- naturalist 4.0.3
+	- noseenotick 2.0.0-build.9999
+	- personality 4.0.0
+	- playeranimator 1.0.2-rc1+1.20
+	- playerrevive 2.0.29
+	- polymorph 0.49.5+1.20.1
+		\-- spectrelib 0.13.15+1.20.1
+	- projectvibrantjourneys 1.20.1-6.0.0
+	- puzzleslib 8.1.20
+		\-- puzzlesaccessapi 8.0.7
+	- quark 4.0-458
+	- radiantgear 2.1.5+1.20.1
+	- radium 0.12.3+git.50c5c33
+	- repurposed_structures 7.1.15+1.20.1-forge
+	- saturn 0.1.3
+	- securitycraft 1.9.11
+	- sereneseasons 9.0.0.46
+	- shieldexp 1.1.7a
+	- shulkerboxtooltip 4.0.4+1.20.1
+	- skinlayers3d 1.6.6
+	- sophisticatedbackpacks 3.20.5.1044
+	- sophisticatedcore 0.7.2.756
+	- soulfired 3.2.1.0
+	- sound_physics_remastered 1.20.1-1.4.2
+	- spelunkers_charm 3.6.0
+	- supplementaries 1.20-2.8.15
+		|-- mixinextras 0.3.6
+		\-- mixinsquared 0.1.1
+	- suppsquared 1.20-1.1.14
+	- takesapillage 1.0.3
+	- tectonic 2.3.5a
+	- terrablender 3.0.1.7
+	- terralith 2.5.1
+	- tombstone 8.6.3
+	- trashslot 15.1.0
+	- treechop 0.18.8
+	- villagernames 7.3
+	- visualworkbench 8.0.0
+	- wardrobe 1.0.3.1
+	- zeta 1.0-19
+[05:07:00] [main/WARN] [mixin]: Reference map 'mns-forge-refmap.json' for mns-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:07:02] [main/WARN] [Radium Config]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[05:07:02] [main/WARN] [mixin]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[05:07:02] [main/INFO] [memoryleakfix]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[05:07:02] [main/INFO] [memoryleakfix]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[05:07:03] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[05:07:03] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/util/Unit
+[05:07:03] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/ChatFormatting
+[05:07:03] [main/INFO] [net.minecraft.server.Bootstrap]: ModernFix reached bootstrap stage (16.08 s after launch)
+[05:07:03] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/Util$IdentityStrategy
+[05:07:03] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/core/Holder$Reference$Type
+[05:07:03] [main/WARN] [mixin]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[05:07:03] [main/WARN] [mixin]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[05:07:04] [main/INFO] [ModernFix]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[05:07:04] [main/INFO] [ModernFix]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[05:07:04] [main/INFO] [ModernFix]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[05:07:04] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/core/Direction
+[05:07:04] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/core/Direction$AxisDirection
+[05:07:04] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/core/Direction$Axis
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/core/Direction$Plane
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/core/FrontAndTop
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/AttachFace
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/BellAttachType
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/WallSide
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/RedstoneSide
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/DoubleBlockHalf
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/Half
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/RailShape
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/BedPart
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/ChestType
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/ComparatorMode
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/DoorHingeSide
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument$Type
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/PistonType
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/SlabType
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/StairsShape
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/StructureMode
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/BambooLeaves
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/Tilt
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/DripstoneThickness
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/properties/SculkSensorPhase
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/material/PushReaction
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/RenderShape
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/biome/Biome$Precipitation
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/ordana/immersive_weathering/util/Weatherable$WeatheringState
+[05:07:05] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/ordana/immersive_weathering/blocks/mossy/Mossable$MossLevel
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/pathfinder/PathComputationType
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/state/BlockBehaviour$OffsetType
+[05:07:06] [main/INFO] [net.minecraft.server.Bootstrap]: Vanilla bootstrap took 2227 milliseconds
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraftforge/network/NetworkDirection
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/item/DyeColor
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/util/ByIdMap$OutOfBoundsStrategy
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/Rotation
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/InteractionHand
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/InteractionResult
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/Mirror
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/core/AxisCycle
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/player/Player$BedSleepingProblem
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/DoubleBlockCombiner$BlockType
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/effect/MobEffectCategory
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/ai/attributes/AttributeModifier$Operation
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/ordana/immersive_weathering/blocks/cracked/Crackable$CrackLevel
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/player/PlayerSignOpenEvent$Cause
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/PressurePlateBlock$Sensitivity
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/ordana/immersive_weathering/blocks/rusty/Rustable$RustLevel
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/EquipmentSlot
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/MultifaceSpreader$SpreadType
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/amendments/reg/ModBlockProperties$SignAttachment
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/amendments/reg/ModBlockProperties$BlockAttachment
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/block/CauldronLevelChangeEvent$ChangeReason
+[05:07:06] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/SkullBlock$Types
+[05:07:07] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/entity/JigsawBlockEntity$JointType
+[05:07:07] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/entity/BeehiveBlockEntity$BeeReleaseStatus
+[05:07:07] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/WeatheringCopper$WeatherState
+[05:07:07] [main/WARN] [mixin]: Injection warning: LVT in net/minecraft/world/item/BoatItem::m_7203_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; has incompatible changes at opcode 143 in callback securitycraft.mixins.json:boat.BoatItemMixin->@Inject::securitycraft$maybeSetSecuritySeaBoatOwner(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/phys/HitResult;Lnet/minecraft/world/phys/Vec3;DLjava/util/List;Lnet/minecraft/world/entity/vehicle/Boat;)V.
+ Expected: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/HitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lnet/minecraft/world/entity/vehicle/Boat;]
+    Found: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/BlockHitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lorg/bukkit/event/player/PlayerInteractEvent;]
+Available: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/BlockHitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lorg/bukkit/event/player/PlayerInteractEvent;, Lnet/minecraft/world/entity/vehicle/Boat;, Lnet/minecraft/world/entity/Entity;, Lnet/minecraft/world/phys/AABB;]
+[05:07:07] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/item/Rarity
+[05:07:07] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/vehicle/AbstractMinecart$Type
+[05:07:07] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/MobCategory
+[05:07:07] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/entity/CreatureSpawnEvent$SpawnReason
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/ai/goal/Goal$Flag
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/Pose
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/animal/sniffer/Sniffer$State
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/entity/EntityPotionEffectEvent$Cause
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/item/ArmorItem$Type
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/EquipmentSlot$Type
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/vehicle/Boat$Type
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/item/ArmorMaterials
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/item/Tiers
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/network/protocol/game/ClientboundPlayerInfoUpdatePacket$Action
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/GameType
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/Difficulty
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/GameRules$Category
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/item/enchantment/Enchantment$Rarity
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/item/enchantment/ProtectionEnchantment$Type
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/item/enchantment/EnchantmentCategory
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Types
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Usage
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/chunk/ChunkStatus$ChunkType
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/item/crafting/CraftingBookCategory
+[05:07:08] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/item/crafting/CookingBookCategory
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/core/Holder$Kind
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/placement/CaveSurface
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/structure/placement/StructurePlacement$FrequencyReductionMethod
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/structure/placement/RandomSpreadType
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/structure/StructureSpawnOverride$BoundingBoxType
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Decoration
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/structure/TerrainAdjustment
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/structure/structures/MineshaftStructure$Type
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/structure/structures/OceanRuinStructure$Type
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/structure/structures/RuinedPortalPiece$VerticalPlacement
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Carving
+[05:07:09] [main/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[05:07:09] [main/WARN] [mixin]: Method overwrite conflict for m_47505_ in lithium.mixins.json:world.temperature_cache.BiomeMixin, previously written by org.embeddedt.modernfix.common.mixin.perf.remove_biome_temperature_cache.BiomeMixin. Skipping method.
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/biome/Biome$TemperatureModifier
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Temperature
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Steep
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Hole
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$AbovePreliminarySurface
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Bandlands
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendAlpha
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendOffset
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BeardifierMarker
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Marker$Type
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$WeirdScaledSampler$RarityValueMapper
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Mapped$Type
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$TwoArgumentSimpleFunction$Type
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/structure/pools/StructureTemplatePool$Projection
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/item/CreativeModeTab$Row
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/item/CreativeModeTab$Type
+[05:07:09] [main/INFO] [org.groovymc.gml.internal.ModExtensionLoader]: Skipping extension class org.groovymc.cgl.api.extension.client.MinecraftExtensions: it requires dist CLIENT, but we're running on DEDICATED_SERVER
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/mojang/math/OctahedralGroup
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/mojang/math/SymmetricGroup3
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraftforge/common/extensions/IForgeHolderSet$SerializationType
+[05:07:09] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/nbt/StreamTagVisitor$ValueResult
+[05:07:10] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/commands/SharedSuggestionProvider$ElementSuggestionType
+[05:07:10] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/Entity$RemovalReason
+[05:07:10] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/MoverType
+[05:07:10] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/Entity$MovementEmission
+[05:07:10] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/sounds/SoundSource
+[05:07:10] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/player/PlayerTeleportEvent$TeleportCause
+[05:07:10] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/commands/arguments/EntityAnchorArgument$Anchor
+[05:07:10] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/entity/EntityRegainHealthEvent$RegainReason
+[05:07:10] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/ClipContext$Fluid
+[05:07:10] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/HumanoidArm
+[05:07:10] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/entity/EntityExhaustionEvent$ExhaustionReason
+[05:07:10] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/inventory/ClickAction
+[05:07:10] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/player/PlayerModelPart
+[05:07:10] [modloading-worker-0/INFO] [dynamiclightsreforged]: [LambDynLights] Initializing Dynamic Lights Reforged...
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting dev/lambdaurora/lambdynlights/config/QualityMode
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ht/treechop/common/config/ChopCountingAlgorithm
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ht/treechop/common/config/Rounder
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ht/treechop/common/config/ListType
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ht/treechop/common/settings/SettingsField
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ht/treechop/common/settings/SneakBehavior
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting fuzs/puzzleslib/api/core/v1/ContentRegistrationFlags
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ht/treechop/common/platform/ModLoader
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting fuzs/easyanvils/config/ServerConfig$PriorWorkPenalty
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting fuzs/easyanvils/config/ServerConfig$FreeRenames
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting fuzs/easyanvils/config/ServerConfig$RenameAndRepairCost
+[05:07:10] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for easyanvils:main
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraftforge/event/TickEvent$Phase
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraftforge/event/TickEvent$Type
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/server/packs/PackType
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/p3pp3rf1y/sophisticatedcore/client/gui/SortButtonsPosition
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting fuzs/puzzleslib/api/network/v2/MessageDirection
+[05:07:10] [modloading-worker-0/INFO] [Collective]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/commands/Commands$CommandSelection
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/darkhax/bookshelf/api/PhysicalSide
+[05:07:10] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[05:07:10] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[05:07:10] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[05:07:10] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[05:07:10] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[05:07:10] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[05:07:10] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/darkhax/bookshelf/api/event/IEventHelper$Ordering
+[05:07:10] [modloading-worker-0/INFO] [fastconfigapi]: FastConfigAPI has been initialized!
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/starfish_studios/naturalist/common/entity/Butterfly$Variant
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/starfish_studios/naturalist/common/entity/Snail$Color
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraftforge/common/world/BiomeModifier$Phase
+[05:07:10] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody]: [MELODY] Disabling Melody since it's loaded server-side.
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/blay09/mods/balm/api/event/TickPhase
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/blay09/mods/balm/api/event/EventPriority
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/p3pp3rf1y/sophisticatedcore/upgrades/feeding/HungerLevel
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/p3pp3rf1y/sophisticatedbackpacks/upgrades/refill/RefillUpgradeWrapper$TargetSlot
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/blay09/mods/balm/config/ExampleConfigData$ExampleEnum
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/p3pp3rf1y/sophisticatedbackpacks/upgrades/inception/InventoryOrder
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/p3pp3rf1y/sophisticatedbackpacks/upgrades/toolswapper/ToolSwapMode
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraftforge/common/capabilities/CapabilityManager
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/p3pp3rf1y/sophisticatedcore/upgrades/xppump/AutomationDirection
+[05:07:10] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete]: [KONKRETE] Successfully initialized!
+[05:07:10] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete]: [KONKRETE] Server-side libs ready to use!
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting me/jellysquid/mods/sodium/client/gui/SodiumGameOptions$GraphicsQuality
+[05:07:10] [modloading-worker-0/ERROR] [Embeddium]: Failed to update fingerprint
+java.lang.NoClassDefFoundError: net/minecraft/client/Minecraft
+	at me.jellysquid.mods.sodium.client.data.fingerprint.FingerprintMeasure.create(FingerprintMeasure.java:19) ~[embeddium-0.3.20+mc1.20.1.jar%23318!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.updateFingerprint(SodiumClientMod.java:102) ~[embeddium-0.3.20+mc1.20.1.jar%23318!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.<init>(SodiumClientMod.java:42) ~[embeddium-0.3.20+mc1.20.1.jar%23318!/:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:83) ~[javafmllanguage-1.20.1-47.3.11.jar%23384!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.3.11.jar%23383!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.Minecraft
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:157) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 15 more
+[05:07:10] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for diagonalblocks:main
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/MobSpawnType
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraftforge/event/entity/player/PlayerInteractEvent$LeftClickBlock$Action
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/inventory/RecipeBookType
+[05:07:10] [modloading-worker-0/INFO] [gml]: Initialised GML mod. Version: 4.0.9
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting top/theillusivec4/curios/client/CuriosClientConfig$Client$ButtonCorner
+[05:07:10] [modloading-worker-0/INFO] [Collective]: Loading Collective version 7.61.
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting top/theillusivec4/curios/common/CuriosConfig$KeepCurios
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/api/cooldown/CooldownType
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$FogDensity
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$FogPeriod
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/block/GraveModel
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/block/BlockGraveMarble$MarbleType
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$GraveSkinRule
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$GraveSpawnRule
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$AutoEquipRule
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$MarkerType
+[05:07:10] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$FontRule
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Enchantments$MagicSiphonOnPlayerRule
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting dev/architectury/utils/Env
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/helper/UpdaterHandler$PoolType
+[05:07:11] [modloading-worker-0/INFO] [com.cupboard.Cupboard]: Loaded config for: cupboard.json
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting forge/io/github/akashiikun/mavm/AxolotlVariants
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/animal/axolotl/Axolotl$Variant
+[05:07:11] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting dev/architectury/networking/NetworkManager$Side
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/amendments/configs/CommonConfigs$MixingMode
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/amendments/common/entity/FallingLanternEntity$FallMode
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/moonlight/api/platform/configs/ConfigType
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting fuzs/easymagic/config/ServerConfig$EnchantmentHint
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting fuzs/easymagic/config/ServerConfig$ChiseledBookshelfPower
+[05:07:11] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for easymagic:main
+[05:07:11] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for visualworkbench:main
+[05:07:11] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret]: Initialize mod Library Ferret
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/moonlight/api/platform/PlatHelper$Platform
+[05:07:11] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret]: Initialized mod Library Ferret
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/moonlight/api/platform/PlatHelper$Side
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/server/packs/repository/Pack$Position
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/moonlight/api/platform/RegHelper$VariantType
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/moonlight/api/platform/network/NetworkDir
+[05:07:11] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting sereneseasons/api/season/Season$SubSeason
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting sereneseasons/api/season/Season
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/teamabnormals/blueprint/common/world/storage/tracking/SyncType
+[05:07:11] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[05:07:11] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.3.11, for MC 1.20.1 with MCP 20230612.114412
+[05:07:11] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.3.11 Initialized
+[05:07:11] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.1.106 Initialized
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/progwml6/ironchest/common/item/IronChestsUpgradeType
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/progwml6/ironchest/common/block/IronChestsTypes
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/item/ItemDisplayContext
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/ordana/immersive_weathering/data/block_growths/TickSource
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/storage/loot/LootContext$EntityTarget
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/violetmoon/zeta/util/ZetaSide
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/SpawnPlacements$Type
+[05:07:11] [modloading-worker-0/INFO] [quark]: Initializing TerraBlender underground biome compat
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/violetmoon/zeta/multiloader/Env
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/violetmoon/zeta/network/ZetaNetworkDirection
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/block/blocks/BlackboardBlock$UseMode
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/configs/CommonConfigs$Hands
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/entities/BombEntity$BreakingMode
+[05:07:11] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/configs/CommonConfigs$DeathMarkerMode
+[05:07:12] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/network/ClientBoundParticlePacket$EventType
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Discovered 164 modules to load.
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Abacus...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Adjustable Chat...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Ambient Discs...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Ancient Tomes...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Ancient Wood...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Armed Armor Stands...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Auto Walk Keybind...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Automatic Recipe Unlock...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Automatic Tool Restock...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Azalea Wood...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Back Button Keybind...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Backpack...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Beach Villagers...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Beacon Redirection...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Better Elytra Rocket...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Big Stone Clusters...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Blossom Trees...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Bottled Cloud...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Buckets Show Inhabitants...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Camera...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Campfires Boost Elytra...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Celebratory Lamps...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Chains Connect Blocks...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Chest Searching...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Chorus Vegetation...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Chute...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Climate Control Remover...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Color Runes...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Compasses Work Everywhere...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Compressed Blocks...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Coral On Cactus...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Corundum...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Crabs...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Crafter...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Crate...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Diamond Repair...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Dispensers Place Blocks...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Double Door Opening...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Dragon Scales...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Duskbound Blocks...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Dyeable Item Frames...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Easy Transfering...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Elytra Indicator...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Emotes...
+[05:07:12] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/geforcemods/securitycraft/util/SCItemGroup
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Enchantment Predicates...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Enchantments Begone...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Ender Watcher...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Endermosh Music Disc...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Enhanced Ladders...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Expanded Item Interactions...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Fairy Rings...
+[05:07:12] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/saveddata/maps/MapDecoration$Type
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Fallen Logs...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Feeding Trough...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Forgotten...
+[05:07:12] [modloading-worker-0/INFO] [labellingcontainers]: Initializing mod...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Foxhound...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Framed Glass...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Game Nerfs...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Glass Item Frame...
+[05:07:12] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for diagonalfences:main
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Glass Shard...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Glimmering Weald...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Gold Bars...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Gold Tools Have Fortune...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Grab Chickens...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Grate...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Gravisand...
+[05:07:12] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id labellingcontainers:request_taggable_blocks_config_packet
+[05:07:12] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id labellingcontainers:label_printer_save_packet
+[05:07:12] [modloading-worker-0/WARN] [labellingcontainers]: Could not run Client Setup (mod is probably running on a Server-Only instance)
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Greener Grass...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Hedges...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Hoe Harvesting...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Hollow Logs...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Horses Swim...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Hotbar Changer...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Improved Sponges...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Improved Tooltips...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Industrial Palette...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Inventory Sorting...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Iron Rod...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Item Sharing...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Japanese Palette...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Leaf Carpet...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Lock Rotation...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Long Range Pick Block...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Magma Keeps Concrete Powder...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Magnets...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Map Washing...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Matrix Enchanting...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Metal Buttons...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Microcrafting Helper...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Midori...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Monster Box...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Banner Layers...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Brick Types...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Mud Blocks...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Note Block Sounds...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Potted Plants...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Narrator Readout...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Nether Brick Fence Gate...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Nether Obsidian Spikes...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module New Stone Types...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module No Durability On Cosmetics...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module No More Lava Pockets...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Obsidian Plate...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Overlay Shader...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Parrot Eggs...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pat The Dogs...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pathfinder Maps...
+[05:07:12] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/teammetallurgy/aquaculture/entity/FishType
+[05:07:12] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for puzzleslib:main
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Permafrost...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Petals On Water...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pickarang...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pig Litters...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pipes...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pistons Move Tile Entities...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Poison Potato Usage...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Quick Armor Swapping...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Rainbow Lamps...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Raw Metal Bricks...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Reacharound Placing...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Redstone Randomizer...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Renewable Spore Blossoms...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Replace Scaffolding...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Rope...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Safer Creatures...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Seed Pouch...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Shear Vines...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Shiba...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Shingles...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Shulker Packing...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Simple Harvest...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Skull Pikes...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Slabs To Blocks...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Slime In A Bucket...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Slimes To Magma Cubes...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Snow Golem Player Heads...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Soul Candles...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Soul Sandstone...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Spawner Replacer...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Spiral Spires...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Stonelings...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Stools...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Sturdy Stone...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Thatch...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Tiny Potato...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Torch Arrow...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Toretoise...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Totem Of Holding...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Trowel...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Usage Ticker...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Uses For Curses...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Utility Recipes...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Animal Textures...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Bookshelves...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Chests...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Furnaces...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Ladders...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Selector...
+[05:07:12] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/misc/songs/SongsManager$Source
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Vertical Planks...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Vertical Slabs...
+[05:07:12] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/moonlight/api/fluids/SoftFluid$Capacity
+[05:07:12] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/moonlight/api/fluids/SoftFluid$TintMethod
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Vexes Die With Their Masters...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Villager Rerolling Rework...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Villagers Follow Emeralds...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Wooden Posts...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Wool Shuts Up Minecarts...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Wraith...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Zombie Villagers On Normal...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Stone Variants...
+[05:07:12] [modloading-worker-0/INFO] [quark-zeta]: Constructed 164 modules.
+[05:07:12] [modloading-worker-0/INFO] [ModernFix]: Bypassed Mojang DFU
+[05:07:12] [modloading-worker-0/INFO] [ModernFix]: Instantiating Mojang DFU
+[05:07:13] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/item/UseAnim
+[05:07:13] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/illusivesoulworks/spectrelib/config/SpectreConfig$Type
+[05:07:13] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/teamabnormals/blueprint/core/util/BiomeUtil$OriginalModdedBiomeProvider
+[05:07:13] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/network/chat/ChatTypeDecoration$Parameter
+[05:07:13] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/damagesource/DamageScaling
+[05:07:13] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/damagesource/DamageEffects
+[05:07:13] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/damagesource/DeathMessageType
+[05:07:14] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@69a6a519 has been registered twice for the same name treechop:chop_wood.
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/geforcemods/securitycraft/misc/SCSounds
+[05:07:14] [main/INFO] [zeta-internal]: Dispatching ZRegister to 3 listeners
+[05:07:14] [main/INFO] [zeta-internal]: Dispatching ZRegister$Post to 1 listener
+[05:07:14] [main/INFO] [quark-zeta]: Dispatching ZRegister to 98 listeners
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/violetmoon/zeta/registry/RenderLayerRegistry$Layer
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/violetmoon/quark/content/building/block/WoodPostBlock$PostSideType
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/violetmoon/quark/base/util/CorundumColor
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/violetmoon/quark/content/automation/block/CrafterBlock$PowerState
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/violetmoon/zeta/api/ICollateralMover$MoveResult
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/violetmoon/quark/addons/oddities/block/be/PipeBlockEntity$ConnectionType
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/violetmoon/quark/content/automation/base/RandomizerPowerState
+[05:07:14] [main/INFO] [quark-zeta]: Dispatching ZRegister$Post to 6 listeners
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/violetmoon/quark/content/building/block/VerticalSlabBlock$VerticalSlabType
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting ht/treechop/common/properties/ChoppedLogShape
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/mcwwindows/kikoz/objects/ConnectedWindow$ExtendablePart
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/mcwwindows/kikoz/objects/Parapet$Flower
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/mcwwindows/kikoz/util/WindowPart
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/mcwwindows/kikoz/objects/Blinds$GaragePart
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/mcwwindows/kikoz/objects/Curtain$TiedEnum
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/mcwwindows/kikoz/objects/Window$ExtendablePart
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/pathfinder/BlockPathTypes
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting vectorwing/farmersdelight/common/block/state/CookingPotSupport
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/teamremastered/endrem/blocks/ERFrameProperties
+[05:07:14] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/block/SoulType
+[05:07:15] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/mrcrayfish/furniture/block/DeskBlock$Type
+[05:07:15] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/mrcrayfish/furniture/block/DeskBlock$MaterialType
+[05:07:15] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/mrcrayfish/furniture/block/SofaBlock$Type
+[05:07:15] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting fuzs/diagonalblocks/api/v2/EightWayDirection
+[05:07:15] [main/INFO] [Diagonal Blocks]: Constructing shapes for ForgeDiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 24ms
+[05:07:15] [main/INFO] [Diagonal Blocks]: Constructing shapes for ForgeDiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 23ms
+[05:07:15] [main/INFO] [Diagonal Blocks]: Constructing shapes for ForgeDiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 55ms
+[05:07:15] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/mrcrayfish/furniture/block/ParkBenchBlock$Type
+[05:07:15] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/mrcrayfish/furniture/block/DivingBoardBlock$DivingBoardPart
+[05:07:15] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/mrcrayfish/furniture/block/KitchenCounterBlock$Type
+[05:07:15] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/moonlight/api/util/PotionNBTHelper$Type
+[05:07:15] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting biomesoplenty/common/block/state/properties/QuarterProperty
+[05:07:15] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/geforcemods/securitycraft/blocks/KeypadBarrelBlock$LidFacing
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/block/ModBlockProperties$Topping
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/block/ModBlockProperties$Winding
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/block/ModBlockProperties$PostType
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/block/ModBlockProperties$RakeDirection
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/block/ModBlockProperties$DisplayStatus
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/block/ModBlockProperties$Rune
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/block/ModBlockProperties$Bunting
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/moonlight/api/block/ILightable$FireSourceType
+[05:07:16] [main/INFO] [Moonlight]: Initialized block sets in 25ms
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/helper/TimeHelper$SpecialEvent
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/p3pp3rf1y/sophisticatedcore/upgrades/filter/Direction
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/item/ItemAdvancement$IconType
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/item/ItemScrollBuff$SpellBuff
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/helper/DamageCategory
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/registry/ModTriggers$WololoColor
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting biomesoplenty/common/entity/BoatBOP$ModelType
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting samebutdifferent/ecologics/entity/ModBoat$Type
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/geforcemods/securitycraft/misc/ModuleType
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/geforcemods/securitycraft/misc/PageGroup
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/entities/BombEntity$BombType
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/teammetallurgy/aquaculture/api/AquaArmorMaterials
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/darkhax/bookshelf/impl/commands/CommandHand$OutputType
+[05:07:16] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/telepathicgrunt/repurposedstructures/world/forge/biomemodifiers/AdditionsTemperatureModifier$TEMPERATURE_RANGE
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/item/ItemStack$TooltipPart
+[05:07:17] [main/INFO] [quark-zeta]: Dispatching ForgeZEntityAttributeCreation (as ZEntityAttributeCreation) to 7 listeners
+[05:07:17] [main/INFO] [zeta-internal]: Dispatching ZConfigChanged to 2 listeners
+[05:07:17] [main/INFO] [zeta]: 'zeta' is enabling Zeta's piston structure resolver.
+[05:07:17] [main/INFO] [quark-zeta]: Dispatching ZConfigChanged to 48 listeners
+[05:07:17] [modloading-worker-0/INFO] [com.gpumemleakfix.Gpumemleakfix]: gpumemleakfix mod initialized
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/item/CastingType
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/natamus/collective_common_forge/implementations/networking/data/Side
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting top/theillusivec4/curios/api/type/capability/ICurio$DropRule
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting top/theillusivec4/curios/common/network/server/sync/SPacketSyncStack$HandlerType
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting mezz/jei/common/network/PacketIdServer
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting mezz/jei/common/config/GiveMode
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/teamabnormals/blueprint/common/world/storage/tracking/TrackedDataManager
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/velocitypowered/natives/util/NativeCodeLoader$Status
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting team/creative/creativecore/common/config/sync/ConfigSynchronization
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting team/creative/creativecore/Side
+[05:07:17] [modloading-worker-0/INFO] [me.steinborn.krypton.mod.shared.Krypton]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[05:07:17] [modloading-worker-0/INFO] [com.brutalbosses.BrutalBosses]: brutalbosses mod initialized
+[05:07:17] [modloading-worker-0/INFO] [zeta-internal]: Dispatching ForgeZCommonSetup (as ZCommonSetup) to 2 listeners
+[05:07:17] [modloading-worker-0/INFO] [quark-zeta]: Dispatching ForgeZCommonSetup (as ZCommonSetup) to 42 listeners
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/geforcemods/securitycraft/network/client/OpenScreen$DataType
+[05:07:17] [modloading-worker-0/INFO] [com.github.nyuppo.MoreMobVariants]: Giving mobs a fresh coat of paint...
+[05:07:17] [modloading-worker-0/INFO] [net.Pandarix.bushierflowers.BushierFlowers]: Bushier Flowers set up
+[05:07:17] [modloading-worker-0/INFO] [com.chunksending.ChunkSending]: chunksending mod initialized
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/reg/LootTablesInjects$TableType
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/geforcemods/securitycraft/network/server/RemoteControlMine$Action
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/geforcemods/securitycraft/util/StandingOrWallType
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/geforcemods/securitycraft/blockentities/BlockChangeDetectorBlockEntity$DetectionMode
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/geforcemods/securitycraft/network/server/SyncProjector$DataType
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/geforcemods/securitycraft/blockentities/RiftStabilizerBlockEntity$TeleportationType
+[05:07:17] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/geforcemods/securitycraft/network/server/SyncSSSSettingsOnServer$DataType
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/izofar/takesapillage/world/PillageSiege$State
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/raid/Raid$RaiderType
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/misterpemodder/shulkerboxtooltip/impl/config/Configuration$EnderChestSyncType
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/misterpemodder/shulkerboxtooltip/api/config/ItemStackMergingStrategy
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/misterpemodder/shulkerboxtooltip/impl/config/Configuration$Theme
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/misterpemodder/shulkerboxtooltip/impl/config/Configuration$PreviewPosition
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/misterpemodder/shulkerboxtooltip/impl/config/Configuration$ShulkerBoxTooltipType
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/misterpemodder/shulkerboxtooltip/impl/config/Configuration$LootTableInfoType
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting me/shedaniel/autoconfig/annotation/ConfigEntry$Gui$EnumHandler$EnumDisplayOption
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/misterpemodder/shulkerboxtooltip/impl/network/RegistrationChangeType
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/ordana/immersive_weathering/data/block_growths/Operator
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/ordana/immersive_weathering/data/fluid_generators/IFluidGenerator$FluidType
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting terrablender/api/RegionType
+[05:07:17] [main/INFO] [terrablender]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[05:07:17] [main/INFO] [terrablender]: Registered region minecraft:nether to index 0 for type NETHER
+[05:07:17] [main/INFO] [terrablender]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[05:07:17] [main/INFO] [terrablender]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[05:07:17] [main/INFO] [terrablender]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[05:07:17] [main/INFO] [terrablender]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[05:07:17] [main/INFO] [terrablender]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting terrablender/api/SurfaceRuleManager$RuleCategory
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting terrablender/api/SurfaceRuleManager$RuleStage
+[05:07:17] [main/INFO] [Moonlight]: Initialized color sets in 36ms
+[05:07:17] [main/INFO] [zeta-internal]: Dispatching ZConfigChanged to 2 listeners
+[05:07:17] [main/INFO] [quark-zeta]: Dispatching ZConfigChanged to 48 listeners
+[05:07:17] [main/INFO] [terrablender]: Registered region quark:biome_provider to index 4 for type OVERWORLD
+[05:07:17] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/item/FireworkRocketItem$Shape
+[05:07:17] [main/INFO] [Supplementaries]: Finished mod setup in: [0, 2, 0, 0, 0, 0, 10, 4, 1] ms
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/compatibility/SupportMods
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting top/theillusivec4/curios/api/SlotTypePreset
+[05:07:18] [Thread-0/INFO] [ModernFix]: Please use /mfsrc to reload any changed mod config files
+[05:07:18] [modloading-worker-0/INFO] [AttributeFix]: Loaded values for 19 compatible attributes.
+[05:07:18] [modloading-worker-0/INFO] [AttributeFix]: Loaded 20 values from config.
+[05:07:18] [modloading-worker-0/INFO] [zeta-internal]: Dispatching ForgeZLoadComplete (as ZLoadComplete) to 1 listener
+[05:07:18] [modloading-worker-0/INFO] [quark-zeta]: Dispatching ForgeZLoadComplete (as ZLoadComplete) to 6 listeners
+[05:07:18] [modloading-worker-0/INFO] [AttributeFix]: Saving config file. 20 entries.
+[05:07:18] [modloading-worker-0/INFO] [AttributeFix]: Applying changes for 20 attributes.
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/api/config/IWailaConfig$DisplayMode
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/api/config/IWailaConfig$TTSMode
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/api/config/IWailaConfig$FluidMode
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/api/config/IWailaConfig$BossBarOverlapMode
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/api/config/IWailaConfig$IconMode
+[05:07:18] [modloading-worker-0/INFO] [Jade]: Start loading plugin at ht.treechop.compat.Jade
+[05:07:18] [modloading-worker-0/INFO] [Jade]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[05:07:18] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/vanilla/BrewingStandProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/vanilla/BeehiveProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/vanilla/CommandBlockProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/vanilla/JukeboxProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/vanilla/LecternProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/vanilla/RedstoneProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/vanilla/FurnaceProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/vanilla/ChiseledBookshelfProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/universal/ItemStorageProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/vanilla/AnimalOwnerProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/vanilla/StatusEffectsProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/vanilla/MobGrowthProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/vanilla/MobBreedingProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/vanilla/ChickenEggProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/vanilla/ZombieVillagerProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/vanilla/CampfireProvider
+[05:07:18] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/universal/EntityItemStorageProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/universal/FluidStorageProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/universal/EntityFluidStorageProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/universal/EnergyStorageProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/universal/EntityEnergyStorageProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/universal/ProgressProvider
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/universal/EntityProgressProvider
+[05:07:18] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/core/RegistryNameProvider$Mode
+[05:07:18] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector]: Redirecting snownee/jade/addon/core/ObjectNameProvider
+[05:07:18] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[05:07:18] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[05:07:18] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/embeddedt/modernfix/util/BakeReason
+[05:07:19] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:07:19] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/nbt/StreamTagVisitor$EntryResult
+[05:07:19] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/util/datafix/DataFixTypes
+[05:07:19] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/server/packs/repository/PackCompatibility
+[05:07:19] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/moonlight/api/resources/ResType
+[05:07:19] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering]: Generated runtime SERVER_DATA for pack Immersive Weathering Generated Pack (immersive_weathering) in: 143 ms
+[05:07:19] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/data/recipes/RecipeCategory
+[05:07:19] [main/INFO] [suppsquared]: Generated runtime SERVER_DATA for pack Suppsquared Generated Pack (suppsquared) in: 65 ms
+[05:07:19] [main/INFO] [Supplementaries]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 43 ms
+[05:07:20] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint]: Successfully loaded 0 data remolders!
+[05:07:20] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/server/RegistryLayer
+[05:07:20] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/telepathicgrunt/repurposedstructures/world/structures/GenericJigsawStructure$BURYING_TYPE
+[05:07:20] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/finndog/mes/world/structures/GenericJigsawStructure$BURYING_TYPE
+[05:07:20] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/finndog/mvs/world/structures/GenericJigsawStructure$BURYING_TYPE
+[05:07:20] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/finndog/mns/world/structures/GenericJigsawStructure$BURYING_TYPE
+[05:07:20] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/finndog/mns/world/structures/GenericNetherJigsawStructure$LAND_SEARCH_DIRECTION
+[05:07:20] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/finndog/mvs/world/structures/GenericNetherJigsawStructure$LAND_SEARCH_DIRECTION
+[05:07:20] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/telepathicgrunt/repurposedstructures/world/structures/GenericNetherJigsawStructure$LAND_SEARCH_DIRECTION
+[05:07:20] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/telepathicgrunt/repurposedstructures/world/predicates/MatterPhaseRuleTest$MATTER_PHASE
+[05:07:21] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd$Type
+[05:07:21] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/storage/PrimaryLevelData$SpecialWorldProperty
+[05:07:22] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/commands/CommandBuildContext$MissingTagAccessPolicy
+[05:07:22] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/network/chat/ClickEvent$Action
+[05:07:22] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/command/TombstoneCommand$CommandName
+[05:07:22] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/command/CommandTBBind$SubCommand
+[05:07:22] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/command/CommandTBKnowledge$SubCommand
+[05:07:22] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/command/CommandTBRecovery$SubCommand
+[05:07:22] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/command/CommandTBSiege$SubCommand
+[05:07:22] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/command/CommandTBTeleport$SubCommand
+[05:07:22] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/geforcemods/securitycraft/commands/ConvertCommand$ConversionMode
+[05:07:22] [main/INFO] [zeta-internal]: Dispatching ForgeZAddReloadListener (as ZAddReloadListener) to 2 listeners
+[05:07:22] [main/INFO] [quark-zeta]: Dispatching ForgeZAddReloadListener (as ZAddReloadListener) to 2 listeners
+[05:07:22] [main/INFO] [quark-zeta]: Dispatching AdvancementModifierRegistry$1 (as ZGatherAdvancementModifiers) to 1 listener
+[05:07:22] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/storage/loot/functions/CopyNbtFunction$MergeStrategy
+[05:07:23] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/storage/loot/functions/CopyNameFunction$NameSource
+[05:07:23] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/animal/Fox$Type
+[05:07:23] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/animal/MushroomCow$MushroomType
+[05:07:23] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/animal/Rabbit$Variant
+[05:07:23] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/animal/horse/Variant
+[05:07:23] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/animal/horse/Llama$Variant
+[05:07:23] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/animal/Parrot$Variant
+[05:07:23] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/animal/TropicalFish$Pattern
+[05:07:23] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/animal/TropicalFish$Base
+[05:07:24] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint]: Loot Modification Manager has loaded 0 modifier groups
+[05:07:24] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting vectorwing/farmersdelight/client/recipebook/CookingPotRecipeBookTab
+[05:07:24] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 11 recipes
+[05:07:24] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint]: Advancement Modification Manager has loaded 0 modifier groups
+[05:07:24] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/advancements/FrameType
+[05:07:24] [main/INFO] [quark]: [Automatic Recipe Unlock] Removed 3516 recipe advancements
+[05:07:24] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 497 advancements
+[05:07:24] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/telepathicgrunt/repurposedstructures/misc/maptrades/WanderingTraderMapObj$TRADE_TYPE
+[05:07:24] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 12 curio slots
+[05:07:24] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 1 curio entities
+[05:07:24] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint]: Chunk Generator Modification Manager has loaded 0 modifier groups
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:drowned
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:iron_golem
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:snow_golem
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:zombie
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:skeleton
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:pillager
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:vex
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:evoker
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:zombie
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:vindicator
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:wither_skeleton
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:wither_skeleton
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:cave_spider
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:zombie
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:husk
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:evoker
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:wandering_trader
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:guardian
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:vindicator
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:shulker
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:zoglin
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:chicken
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:blaze
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:witch
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:phantom
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:mooshroom
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:rabbit
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:piglin_brute
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:ghast
+[05:07:24] [main/INFO] [com.brutalbosses.BrutalBosses]: Loaded boss variant for: minecraft:stray
+[05:07:24] [main/INFO] [quark-zeta]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[05:07:24] [main/INFO] [quark-zeta]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[05:07:24] [main/INFO] [quark-zeta]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[05:07:24] [main/INFO] [quark-zeta]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[05:07:24] [main/INFO] [quark-zeta]: Modified advancement minecraft:husbandry/balanced_diet with 3 patches
+[05:07:24] [main/INFO] [quark-zeta]: Modified advancement minecraft:husbandry/plant_seed with 1 patches
+[05:07:24] [main/INFO] [quark-zeta]: Modified advancement minecraft:nether/all_effects with 2 patches
+[05:07:24] [main/INFO] [quark-zeta]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[05:07:24] [main/INFO] [quark-zeta]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[05:07:24] [main/INFO] [quark-zeta]: Modified advancement minecraft:nether/all_potions with 1 patches
+[05:07:24] [main/INFO] [com.github.nyuppo.MoreMobVariants]: Reloading config...
+[05:07:24] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/github/nyuppo/config/SheepHornSettings$SheepHornColour
+[05:07:24] [main/INFO] [Supplementaries]: Loaded 27 flute songs
+[05:07:24] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/misc/mob_container/BuiltinAnimation$Type
+[05:07:24] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/misc/mob_container/DataDefinedCatchableMob$TickMode
+[05:07:24] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraftforge/event/TagsUpdatedEvent$UpdateCause
+[05:07:24] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering]: Loaded 78 block growths configurations
+[05:07:24] [main/INFO] [com.ordana.immersive_weathering.ImmersiveWeathering]: Loaded 14 liquid generators configurations
+[05:07:24] [main/INFO] [Moonlight]: Applied 7 data villager trades
+[05:07:24] [main/INFO] [zeta-internal]: Dispatching ZTagsUpdated to 1 listener
+[05:07:24] [main/INFO] [Supplementaries]: Finished additional setup in 10 ms
+[05:07:24] [main/INFO] [com.teampotato.redirector.Redirector]: Redirecting ht/treechop/api/TreeDetectorBuilder$LeavesStrategy
+[05:07:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[05:07:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/mohistmc/paper/brigadier/PaperBrigadierProviderImpl
+[05:07:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[05:07:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[05:07:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[05:07:25] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[05:07:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:07:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[05:07:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:07:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/Warning$WarningState
+[05:07:25] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-901 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.3.11, NeoForge version 47.1.106)
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/Art
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/attribute/Attribute
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/Biome
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/entity/EntityType
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/loot/LootTables
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/Material
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/mohistmc/paper/inventory/ItemRarity
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/inventory/EquipmentSlot
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/inventory/CreativeCategory
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/TreeSpecies
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/BlockFace
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/SandstoneType
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/GrassSpecies
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/DyeColor
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/CropState
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/material/types/MushroomBlockTexture
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/NetherWartsState
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/material/CocoaPlant$CocoaPlantSize
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/CoalType
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/Statistic
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/Statistic$Type
+[05:07:25] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/Sound
+[05:07:26] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/entity/Villager$Profession
+[05:07:26] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/entity/Villager$Type
+[05:07:26] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/Fluid
+[05:07:26] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/entity/Frog$Variant
+[05:07:26] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/World$Environment
+[05:07:26] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/potion/PotionType
+[05:07:26] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/Particle
+[05:07:26] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/craftbukkit/v1_20_R1/CraftParticle
+[05:07:26] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/entity/SpawnCategory
+[05:07:26] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/ChatColor
+[05:07:26] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[05:07:26] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[05:07:26] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[05:07:26] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/plugin/PluginLoadOrder
+[05:07:26] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/permissions/PermissionDefault
+[05:07:26] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/plugin/PluginAwareness$Flags
+[05:07:28] [Server thread/INFO] [me.minebuilders.clearlag.Clearlag]: [ClearLag] Loading ClearLag v3.2.2
+[05:07:28] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading LuckPerms v5.4.131
+[05:07:28] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap]: [SkinsRestorer] Loading SkinsRestorer v15.4.4
+[05:07:28] [Server thread/INFO] [com.nametagedit.plugin.NametagEdit]: [NametagEdit] Loading NametagEdit v4.5.23
+[05:07:28] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Loading Vault v1.7.3-b131
+[05:07:28] [Server thread/INFO] [me.konsolas.antilag.AntiLag]: [AntiLag] Loading AntiLag v2.0
+[05:07:28] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Loading Essentials v2.21.0-dev+129-2ac37d8
+[05:07:28] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/plugin/ServicePriority
+[05:07:28] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/EventPriority
+[05:07:28] [Server thread/INFO] [me.h1dd3nxn1nja.chatmanager.Main]: [ChatManager] Loading ChatManager v3.7.7
+[05:07:28] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Enabling LuckPerms v5.4.131
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/Effect
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/SoundCategory
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/WeatherType
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/sign/Side
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/GameMode
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/inventory/InventoryView$Property
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/Instrument
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/player/PlayerSpawnChangeEvent$Cause
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/spigotmc/ActivationRange$ActivationType
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/player/ChatVisiblity
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/RelativeMovement
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/weather/LightningStrikeEvent$Cause
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/Level$ExplosionInteraction
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/ticks/TickPriority
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/LightLayer
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/util/AbortableIterationConsumer$Continuation
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/Explosion$BlockInteraction
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/network/protocol/game/ClientboundBossEventPacket$OperationType
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/BossEvent$BossBarColor
+[05:07:29] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/BossEvent$BossBarOverlay
+[05:07:29] [Server thread/INFO] [Console]:         __    
+[05:07:29] [Server thread/INFO] [Console]:   |    |__)   LuckPerms v5.4.131
+[05:07:29] [Server thread/INFO] [Console]:   |___ |      Running on Bukkit - Mohist
+[05:07:29] [Server thread/INFO] [Console]: 
+[05:07:29] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading configuration...
+[05:07:30] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/player/PlayerLoginEvent$Result
+[05:07:30] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/player/AsyncPlayerPreLoginEvent$Result
+[05:07:30] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/player/PlayerPreLoginEvent$Result
+[05:07:30] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading storage provider... [H2]
+[05:07:32] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/BanList$Type
+[05:07:32] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/inventory/InventoryType
+[05:07:32] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/boss/BarColor
+[05:07:32] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/boss/BarStyle
+[05:07:32] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/boss/BarFlag
+[05:07:32] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading internal permission managers...
+[05:07:32] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/EntityEffect
+[05:07:32] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/PistonMoveReaction
+[05:07:32] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/entity/Pose
+[05:07:32] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Performing initial data load...
+[05:07:32] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Successfully enabled. (took 4141ms)
+[05:07:32] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
+[05:07:34] [Server thread/WARN] [Minecraft]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[05:07:34] [Server thread/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.20.1[32;1m.[0;39m
+[05:07:34] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/inventory/InventoryAction
+[05:07:34] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/inventory/ClickType
+[05:07:34] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/inventory/InventoryType$SlotType
+[05:07:35] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/player/PlayerResourcePackStatusEvent$Status
+[05:07:35] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Enabling Vault v1.7.3-b131
+[05:07:36] [Server thread/WARN] [net.milkbowl.vault.Vault]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.0-dev+129-2ac37d8 which is not a depend or softdepend of this plugin.
+[05:07:36] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Economy] Essentials Economy found: Waiting
+[05:07:37] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[05:07:37] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Enabled Version 1.7.3-b131
+[05:07:37] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Registered Vault permission & chat hook.
+[05:07:37] [Server thread/INFO] [Puzzles Lib]: Loading server config for easyanvils
+[05:07:37] [Server thread/INFO] [Puzzles Lib]: Loading server config for easymagic
+[05:07:37] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraftforge/common/world/StructureModifier$Phase
+[05:07:37] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/illusivesoulworks/spectrelib/config/SpectreConfig$InstanceType
+[05:07:37] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting terrablender/worldgen/noise/ZoomLayer
+[05:07:37] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[05:07:37] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[05:07:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/util/ModCheck$Confidence
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/ai/village/VillageSiege$State
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/chunk/storage/IOWorker$Priority
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/entity/Visibility
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/entity/PersistentEntitySectionManager$ChunkLoadStatus
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/server/level/FullChunkStatus
+[05:07:38] [Server thread/WARN] [mixin]: Method overwrite conflict for m_140184_ in lithium.mixins.json:world.player_chunk_tick.ThreadedAnvilChunkStorageMixin, previously written by me.steinborn.krypton.mixin.shared.network.flushconsolidation.ThreadedAnvilChunkStorageMixin. Skipping method.
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/WorldgenRandom$Algorithm
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/scores/Team$Visibility
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/scores/Team$CollisionRule
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket$Action
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/spawner/CustomVillageSiege$SiegeState
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/helper/TamableType
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/teamabnormals/blueprint/core/endimator/PlayableEndimation$LoopType
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/entity/EntityTransformEvent$TransformReason
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/ai/control/MoveControl$Operation
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/projectile/AbstractArrow$Pickup
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/ai/behavior/Behavior$Status
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/ai/memory/MemoryStatus
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/ai/behavior/GateBehavior$OrderPolicy
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/ai/behavior/GateBehavior$RunningPolicy
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/Display$BillboardConstraints
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/capability/ServantEntityImpl$CasterType
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/entity/EnderDragon$Phase
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/monster/SpellcasterIllager$IllagerSpell
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/entity/ExperienceOrb$SpawnReason
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/projectile/FishingHook$FishHookState
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/animal/frog/ShootTongue$State
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/monster/Phantom$AttackPhase
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/ai/behavior/CrossbowAttack$CrossbowState
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/ai/goal/RangedCrossbowAttackGoal$CrossbowState
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/violetmoon/quark/content/mobs/ai/FindPlaceToSleepGoal$Target
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/violetmoon/quark/content/building/entity/GlassItemFrame$SignAttachment
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/geforcemods/securitycraft/entity/sentry/Sentry$SentryMode
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/geforcemods/securitycraft/misc/TargetingMode
+[05:07:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[05:07:38] [Server thread/WARN] [mixin]: Method overwrite conflict for removeIf in lithium.mixins.json:world.chunk_tickets.SortedArraySetMixin, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/EmptyBlockGetter
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/core/Direction8
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/SupportType
+[05:07:38] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/server/level/ThreadedLevelLightEngine$TaskType
+[05:07:40] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[05:07:40] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[05:07:40] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[05:07:40] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[05:07:40] [Server thread/INFO] [com.cupboard.Cupboard]: Loaded config for: brutalbosses.json
+[05:07:40] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1669 ms
+[05:07:40] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/entity/EntityDamageEvent$DamageModifier
+[05:07:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[05:07:40] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy
+[05:07:40] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[05:07:40] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 29%
+[05:07:41] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 569 ms
+[05:07:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[05:07:41] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[05:07:41] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[05:07:41] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 896 ms
+[05:07:41] [Server thread/INFO] [me.minebuilders.clearlag.Clearlag]: [ClearLag] Enabling ClearLag v3.2.2
+[05:07:41] [Server thread/INFO] [Minecraft]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[05:07:42] [Server thread/INFO] [Minecraft]: [ClearLag] Loading modules...
+[05:07:42] [Server thread/WARN] [Minecraft]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[05:07:42] [Server thread/INFO] [Minecraft]: [ClearLag] Modules enabed, loading config values
+[05:07:42] [Server thread/INFO] [Minecraft]: [ClearLag] Modules have been loaded!
+[05:07:42] [Thread-21/INFO] [Minecraft]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[05:07:42] [Server thread/INFO] [Minecraft]: [ClearLag] Clearlag is now enabled!
+[05:07:42] [Server thread/INFO] [com.nametagedit.plugin.NametagEdit]: [NametagEdit] Enabling NametagEdit v4.5.23
+[05:07:42] [Server thread/INFO] [com.nametagedit.plugin.NametagEdit]: [NametagEdit] Successfully loaded using bukkit version: v1_20_R1
+[05:07:42] [Server thread/INFO] [com.nametagedit.plugin.NametagEdit]: [NametagEdit] Found LuckPerms! Hooking in.
+[05:07:42] [Server thread/INFO] [me.konsolas.antilag.AntiLag]: [AntiLag] Enabling AntiLag v2.0
+[05:07:42] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/entity/EntityTargetEvent$TargetReason
+[05:07:42] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Enabling Essentials v2.21.0-dev+129-2ac37d8
+[05:07:42] [Thread-21/INFO] [Minecraft]: [ClearLag] No updates found!
+[05:07:42] [Server thread/ERROR] [Essentials]: You are running an unsupported server version!
+[05:07:43] [Server thread/INFO] [Essentials]: Attempting to convert old kits in config.yml to new kits.yml
+[05:07:43] [Server thread/INFO] [Essentials]: No kits found to migrate.
+[05:07:43] [Server thread/INFO] [Essentials]: Loaded 42779 items from items.json.
+[05:07:43] [Server thread/INFO] [Essentials]: Using locale en
+[05:07:43] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/player/PlayerFishEvent$State
+[05:07:43] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/Event$Result
+[05:07:43] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/block/Action
+[05:07:43] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/player/PlayerRespawnEvent$RespawnReason
+[05:07:43] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/block/BlockIgniteEvent$IgniteCause
+[05:07:43] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/entity/EntityDamageEvent$DamageCause
+[05:07:43] [Server thread/INFO] [Essentials]: ServerListPingEvent: Spigot iterator API
+[05:07:43] [Server thread/INFO] [Essentials]: Starting Metrics. Opt-out using the global bStats config.
+[05:07:43] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Economy] Essentials Economy hooked.
+[05:07:43] [Server thread/INFO] [Essentials]: Using Vault based permissions (LuckPerms)
+[05:07:43] [Server thread/INFO] [me.h1dd3nxn1nja.chatmanager.Main]: [ChatManager] Enabling ChatManager v3.7.7
+[05:07:43] [Server thread/INFO] [Minecraft]: [ChatManager] Hooked into: Essentials v2.21.0-dev+129-2ac37d8
+[05:07:43] [Server thread/INFO] [Minecraft]: [ChatManager] Hooked into: Vault v1.7.3-b131
+[05:07:43] [Server thread/INFO] [Minecraft]: [ChatManager] Hooked into: LuckPerms v5.4.131
+[05:07:44] [Server thread/INFO] [me.h1dd3nxn1nja.chatmanager.Main]: [ChatManager] Plugin is up to date - v3.7.7
+[05:07:44] [Server thread/INFO] [me.h1dd3nxn1nja.chatmanager.Main]: [ChatManager] Starting Metrics.
+[05:07:44] [Server thread/INFO] [Console]: =========================
+[05:07:44] [Server thread/INFO] [Console]: Chat Manager
+[05:07:44] [Server thread/INFO] [Console]: Version 3.7.7
+[05:07:44] [Server thread/INFO] [Console]: Author: H1DD3NxN1NJA
+[05:07:44] [Server thread/INFO] [Console]: =========================
+[05:07:44] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/Difficulty
+[05:07:44] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
+[05:07:44] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[05:07:44] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/server/ServerLoadEvent$LoadType
+[05:07:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (6.663s)! For help, type "help"
+[05:07:44] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[05:07:44] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[05:07:44] [Server thread/INFO] [com.cupboard.Cupboard]: Loaded config for: chunksending.json
+[05:07:44] [Server thread/WARN] [ModernFix]: Dedicated server took 56.457 seconds to load
+[05:07:44] [Server thread/INFO] [Essentials]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[05:07:44] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/server/ServerScoreboard$Method
+[05:07:44] [Craft Scheduler Thread - 3/INFO] [net.milkbowl.vault.Vault]: [Vault] Checking for Updates ... 
+[05:07:44] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[05:07:44] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[05:07:44] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[05:07:44] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[05:07:44] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[05:07:44] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[05:07:44] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[05:07:44] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.4.4[0;39m
+[05:07:44] [Craft Scheduler Thread - 3/INFO] [net.milkbowl.vault.Vault]: [Vault] No new version available
+[05:07:44] [Craft Scheduler Thread - 0/INFO] [Essentials]: Fetching version information...
+[05:07:44] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mdc501c7[0;39m
+[05:07:44] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[05:07:44] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[05:07:44] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[05:07:44] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[05:07:44] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/border/BorderStatus
+[05:07:44] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting sereneseasons/api/season/Season$TropicalSeason
+[05:07:44] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/chunk/LevelChunk$EntityCreationType
+[05:07:44] [Craft Scheduler Thread - 0/WARN] [Essentials]: You're 1 EssentialsX dev build(s) out of date!
+[05:07:44] [Craft Scheduler Thread - 0/WARN] [Essentials]: Download it here: https://essentialsx.net/downloads.html
+[05:07:44] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/lighting/LayerLightEventListener$DummyLightLayerEventListener
+[05:07:44] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/util/profiling/metrics/MetricCategory
+[05:07:44] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting software/bernie/geckolib/core/object/PlayState
+[05:07:54] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/network/protocol/PacketFlow
+[05:07:54] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector]: Redirecting me/steinborn/krypton/mod/shared/network/VarintByteDecoder$DecodeResult
+[05:07:54] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/network/ConnectionProtocol
+[05:07:54] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/network/protocol/game/ClientboundCustomChatCompletionsPacket$Action
+[05:07:54] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/network/protocol/game/ClientboundRecipePacket$State
+[05:07:54] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/network/protocol/game/ServerboundClientCommandPacket$Action
+[05:07:54] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/inventory/ClickType
+[05:07:54] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/network/protocol/game/ServerboundInteractPacket$ActionType
+[05:07:54] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action
+[05:07:54] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/network/protocol/game/ServerboundPlayerCommandPacket$Action
+[05:07:54] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/network/protocol/game/ServerboundResourcePackPacket$Action
+[05:07:54] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket$Action
+[05:07:54] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/entity/CommandBlockEntity$Mode
+[05:07:54] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/block/entity/StructureBlockEntity$UpdateType
+[05:08:02] [Netty Epoll Server IO #3/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraftforge/network/ConnectionType
+[05:08:02] [Netty Epoll Server IO #3/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/server/network/ServerLoginPacketListenerImpl$State
+[05:08:04] [Netty Epoll Server IO #3/INFO] [com.teampotato.redirector.Redirector]: Redirecting me/steinborn/krypton/mod/shared/misc/KryptonPipelineEvent
+[05:08:04] [Netty Epoll Server IO #3/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/velocitypowered/natives/util/BufferPreference
+[05:08:04] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraftforge/network/filters/VanillaPacketSplitter$RemoteCompatibility
+[05:08:04] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/vehicle/Boat$Status
+[05:08:04] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/misc/globe/GlobeTextureGenerator$Face
+[05:08:04] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/misc/globe/GlobeTextureGenerator$TerrainType
+[05:08:04] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/misc/globe/GlobeTextureGenerator$Biome
+[05:08:04] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/misc/globe/GlobeTextureGenerator$Feature
+[05:08:04] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/mehvahdjukaar/supplementaries/common/utils/MiscUtils$Festivity
+[05:08:05] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraftforge/event/entity/player/AdvancementEvent$AdvancementProgressEvent$ProgressType
+[05:08:05] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/server/commands/AdvancementCommands$Action
+[05:08:05] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/network/CMessageTBCapability$SyncType
+[05:08:05] [Server thread/INFO] [Jade]: Syncing config to Redalyc1 (4c60eff2-0130-3b72-9ca5-dfe92e1a2813)
+[05:08:05] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Redalyc1[/127.145.201.232:37467] logged in with entity id 340 at ([world]-726.3000000119209, 77.0, 179.3209762659295)
+[05:08:05] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/server/advancements/AdvancementVisibilityEvaluator$VisibilityRule
+[05:08:05] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/craftbukkit/v1_20_R1/CraftStatistic
+[05:08:05] [Server thread/INFO] [Console]: Hola, bienvenido Redalyc1
+[05:08:05] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/inventory/MainHand
+[05:08:05] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/entity/EntityCategory
+[05:08:05] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/FluidCollisionMode
+[05:08:05] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/violetmoon/zeta/event/bus/ZResult
+[05:08:05] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/p3pp3rf1y/sophisticatedcore/renderdata/DisplaySide
+[05:08:05] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/p3pp3rf1y/sophisticatedcore/renderdata/TankPosition
+[05:08:06] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/entity/EntityPotionEffectEvent$Action
+[05:08:06] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/ClipContext$Block
+[05:08:06] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/ordana/immersive_weathering/util/PatchSpreader$Susceptibility
+[05:08:06] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/ordana/immersive_weathering/util/PatchSpreader$WeatheringAgent
+[05:08:06] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/entity/animal/horse/Markings
+[05:08:07] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/phys/HitResult$Type
+[05:08:08] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting ht/treechop/common/network/ClientRequestSettingsPacket$Event
+[05:08:08] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting ht/treechop/common/network/ConfirmedSetting$Event
+[05:08:08] [Server thread/INFO] [ShulkerBoxTooltip]: [ShulkerBoxTooltip] Redalyc1: protocol version: 2.0
+[05:08:08] [Server thread/INFO] [ShulkerBoxTooltip Plugins]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[05:08:08] [Server thread/INFO] [ShulkerBoxTooltip Plugins]: [ShulkerBoxTooltip Plugins] Registered 7 providers for mod shulkerboxtooltip
+[05:08:08] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraftforge/network/NetworkEvent$RegistrationChangeType
+[05:08:08] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting com/misterpemodder/shulkerboxtooltip/impl/network/context/MessageContext$Side
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/BigDripleaf$Tilt
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/Bamboo$Leaves
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/Bed$Part
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/Bell$Attachment
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/FaceAttachable$AttachedFace
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/Switch$Face
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/Axis
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/Chest$Type
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/Wall$Height
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/Door$Hinge
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/Bisected$Half
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/Jigsaw$Orientation
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/Rail$Shape
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/Comparator$Mode
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/RedstoneWire$Connection
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/Stairs$Shape
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/Slab$Type
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/StructureBlock$Mode
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/SculkSensor$Phase
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/PointedDripstone$Thickness
+[05:08:15] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/block/data/type/TechnicalPiston$Type
+[05:08:40] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/world/level/levelgen/OreVeinifier$VeinType
+[05:08:44] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting net/minecraft/server/commands/AdvancementCommands$Mode
+[05:08:57] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/violetmoon/quark/content/mobs/entity/Stoneling$StonelingVariant
+[05:08:57] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting org/bukkit/event/player/PlayerAnimationType
+[05:09:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Redalyc1 lost connection: Disconnected
+[05:09:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Redalyc1 se ha ido
+[05:16:04] [Server thread/INFO] [Console]: [AntiLag] > Todos los elementos caídos se eliminarán en 5 segundos
+[05:16:05] [Server thread/INFO] [Console]: [AntiLag] > Todos los elementos caídos se eliminarán en 4 segundos
+[05:16:06] [Server thread/INFO] [Console]: [AntiLag] > Todos los elementos caídos se eliminarán en 3 segundos
+[05:16:07] [Server thread/INFO] [Console]: [AntiLag] > Todos los elementos caídos se eliminarán en 2 segundos
+[05:16:08] [Server thread/INFO] [Console]: [AntiLag] > Todos los elementos caídos se eliminarán en 1 segundos
+[05:16:09] [Server thread/INFO] [Console]: [AntiLag] > Eliminando...
+[05:16:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping the server
+[05:16:22] [Server thread/INFO] [com.teampotato.redirector.Redirector]: Redirecting ovh/corail/tombstone/helper/SupportStructures
+[05:16:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[05:16:22] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Disabling Mohist v1.20.1
+[05:16:22] [Server thread/INFO] [me.h1dd3nxn1nja.chatmanager.Main]: [ChatManager] Disabling ChatManager v3.7.7
+[05:16:22] [Server thread/INFO] [Essentials]: Disabling Essentials v2.21.0-dev+129-2ac37d8
+[05:16:22] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Economy] Essentials Economy unhooked.
+[05:16:22] [Server thread/INFO] [me.konsolas.antilag.AntiLag]: [AntiLag] Disabling AntiLag v2.0
+[05:16:22] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Disabling Vault v1.7.3-b131
+[05:16:22] [Server thread/INFO] [com.nametagedit.plugin.NametagEdit]: [NametagEdit] Disabling NametagEdit v4.5.23
+[05:16:22] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap]: [SkinsRestorer] Disabling SkinsRestorer v15.4.4
+[05:16:22] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Disabling LuckPerms v5.4.131
+[05:16:22] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Starting shutdown process...
+[05:16:22] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Closing storage...
+[05:16:22] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Goodbye!
+[05:16:22] [Server thread/INFO] [me.minebuilders.clearlag.Clearlag]: [ClearLag] Disabling ClearLag v3.2.2
+[05:16:22] [Server thread/INFO] [Minecraft]: [ClearLag] Clearlag is now disabled!
+[05:16:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[05:16:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[05:16:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:16:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[05:16:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[05:16:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:16:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:16:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:16:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved

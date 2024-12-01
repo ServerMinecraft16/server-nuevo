@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.87.156.199
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1731605088184
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1731607183805
+  login: 1731602811425
+money: '0'
+last-account-name: jhairpqci
+lastlocation:
+  world: 16921b8a-0370-448d-92dd-aaacc587eac6
+  world-name: world
+  x: 2020.6032578094157
+  y: 104.0
+  z: -839.6999999880791
+  yaw: -20.17083740234375
+  pitch: 69.77651977539062
+logoutlocation:
+  world: 16921b8a-0370-448d-92dd-aaacc587eac6
+  world-name: world
+  x: 2017.5
+  y: 104.0
+  z: -838.5
+  yaw: 0.5999203324317932
+  pitch: -5.100001811981201
